@@ -221,7 +221,7 @@
 
   /b2_text_tmp b2_text imgsize 0 0 moveto savescreen def
 
-  560 160 moveto
+  200 210 moveto
   /b2_orig b2_text imgsize savescreen def
   /b2_buf b2_text imgsize savescreen def
 
@@ -279,7 +279,7 @@
   0 0 moveto
   0xffffff b2_text_tmp b2_buf blend
 
-  560 160 moveto b2_buf restorescreen
+  200 210 moveto b2_buf restorescreen
 
   false
 
