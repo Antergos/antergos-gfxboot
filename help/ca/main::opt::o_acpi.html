@@ -1,0 +1,23 @@
+<h3>
+<a name="o_acpi">Opcions del nucli: acpi</a>
+</h3>
+
+<p>
+L?ACPI (interfície de configuració avançada i alimentació elèctrica)
+és un estàndard que defineix les interfícies de la gestió de
+configuració i alimentació elèctrica entre un sistema operatiu i la
+BIOS. Per omissió, <em>acpi</em> s'activa en detectar una BIOS a partir
+de l'any 2000. Hi ha diversos paràmetres usats generalment per a 
+controlar el comportament de l'ACPI:
+<ul>
+  <li><em>pci=noacpi</em> -- deshabilita l'ACPI per a encaminar interrupcions PCI</li>
+  <li><em>acpi=oldboot</em> -- només queden actives les parts ACPI que són rellevants per a iniciar</li>
+  <li><em>acpi=off</em> -- desactiva completament l'ACPI</li>
+  <li><em>acpi=force</em> -- activa l'APCI inclús si la BIOS és anterior a l'any 2000</li>
+</ul>
+</p>
+
+<p>
+Especialment en ordinadors nous, reemplaça l'antic 
+sistema <a href="#o_apm">apm</a>.
+</p>
