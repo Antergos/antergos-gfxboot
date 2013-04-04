@@ -1,6 +1,6 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-#               2013 The Chakra Project
+#               2013 The Cinnarch Project
 #
 msgid ""
 msgstr ""

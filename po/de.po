@@ -1,14 +1,14 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-#               2013 The Chakra Project
+#               2013 The Cinnarch Project
 # 
 # Translators:
 # Antje Faber <afaber@suse.de>, 2004-2005.
 # Michael Häsel <michael.haesel@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: The Chakra Project\n"
-"Report-Msgid-Bugs-To: http://chakra-project.org/bugs/\n"
+"Project-Id-Version: The Cinnarch Project\n"
+"Report-Msgid-Bugs-To: http://bugs.cinnarch.com/\n"
 "PO-Revision-Date: 2013-02-03 08:53+0000\n"
 "Last-Translator: Michael Häsel <Michael.Haesel@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/chakra-project/language/de/)\n"
@@ -395,8 +395,8 @@ msgid "Live System (GNOME)"
 msgstr "Live-System (GNOME)"
 
 #. txt_start
-msgid "Start Chakra Live"
-msgstr "Starte Chakra-Live"
+msgid "Start Cinnarch Live"
+msgstr "Starte Cinnarch-Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
