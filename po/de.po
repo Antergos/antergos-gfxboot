@@ -1,14 +1,14 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-#               2013 The Cinnarch Project
+#               2013 The Antergos Project
 # 
 # Translators:
 # Antje Faber <afaber@suse.de>, 2004-2005.
 # Michael Häsel <michael.haesel@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: The Cinnarch Project\n"
-"Report-Msgid-Bugs-To: http://bugs.cinnarch.com/\n"
+"Project-Id-Version: The Antergos Project\n"
+"Report-Msgid-Bugs-To: http://bugs.antergos.com/\n"
 "PO-Revision-Date: 2013-02-03 08:53+0000\n"
 "Last-Translator: Michael Häsel <Michael.Haesel@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/chakra-project/language/de/)\n"
@@ -395,8 +395,8 @@ msgid "Live System (GNOME)"
 msgstr "Live-System (GNOME)"
 
 #. txt_start
-msgid "Start Cinnarch Live"
-msgstr "Starte Cinnarch-Live"
+msgid "Start Antergos Live"
+msgstr "Starte Antergos-Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"

@@ -697,7 +697,7 @@
 
   syslinux info.type 6 eq and {
     dup .title "Driver Update" put
-    /info.msg "Put the Cinnarch media back into the drive." def
+    /info.msg "Put the Antergos media back into the drive." def
   } if
 
   dup .text info.msg put
@@ -1491,7 +1491,7 @@ config.livecd {
 /config.key.F11        "key.F11"                     "" gfxconfig.set.str
 /config.key.F12        "key.F12"                     "" gfxconfig.set.str
 
-/config.product        "product"             "Cinnarch" gfxconfig.set.str
+/config.product        "product"             "Antergos" gfxconfig.set.str
 
 /config.init           "init"                        "" gfxconfig.set.str
 
