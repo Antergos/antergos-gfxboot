@@ -11,9 +11,9 @@ Chakra modifications by
 Manuel Tortosa <manutortosa@chakra-project.org> - Source code, settings
 Malcer - <malcer@gmx.com> Graphical Artist, code, Settings 
 
-Adapted for Cinnarch by
+Adapted for Antergos by
 
-Alexandre Filgueira <alexfilgueira@cinnarch.com>
+Alexandre Filgueira <alexfilgueira@antergos.com>
 
 
 HOW-TO
@@ -25,7 +25,7 @@ First you need to make sure you have CPIO and GFXBOOT installed
 
 Run 'make' for creating the theme,
 this will generate a folder called 'isolinux', just copy the folder into 
-the Cinnarch Live profile, inside boot-files, replacing completelly 
+the Antergos Live profile, inside boot-files, replacing completelly 
 the folder 'isolinux' and all it's contents.
 
 Run 'make clean' for cleanning completelly the build

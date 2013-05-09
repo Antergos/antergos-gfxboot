@@ -1,6 +1,6 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-#               2013 The Cinnarch Project
+#               2013 The Antergos Project
 #
 msgid ""
 msgstr ""
@@ -387,7 +387,7 @@ msgid "Live System (GNOME)"
 msgstr ""
 
 #. txt_start
-msgid "Start Cinnarch Live"
+msgid "Start Antergos Live"
 msgstr ""
 
 #. txt_nonfree
