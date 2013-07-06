@@ -3,14 +3,13 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-#  <spam@zeiva.se>, 2013.
+# mats_bjork007 <mats_bjork007@yahoo.se>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: The Antergos Project\n"
-"Report-Msgid-Bugs-To: http://bugs.antergos.com/\n"
-"PO-Revision-Date: 2013-02-02 17:05+0000\n"
-"Last-Translator: Alexandre Filgueira <alexfilgueira@antergos.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/chakra-project/language/sv/)\n"
+"Project-Id-Version: Antergos\n"
+"PO-Revision-Date: 2013-05-23 10:26+0000\n"
+"Last-Translator: mats_bjork007 <mats_bjork007@yahoo.se>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/antergos/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 #. cancel button label
 #. txt_cancel
@@ -43,7 +42,7 @@ msgstr "Installation"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux - Säkra inställningar"
+msgstr "Linux--Säkra inställningar"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -51,7 +50,7 @@ msgstr "Starta från hårddisk"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Räddningssystem"
+msgstr "Rädda systemet"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -59,7 +58,7 @@ msgstr "Minnestest"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Startalternativ"
+msgstr "Startval"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -70,7 +69,7 @@ msgstr "Avslutar..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "Du är på väg att lämna den grafiska startmenyn och\nstarta textlägesgränssnittet."
+msgstr "Du lämnar den grafiska startmenyn och\nstartar textgränssnittet."
 
 #. txt_help
 msgid "Help"
@@ -105,7 +104,7 @@ msgstr "Starthanterare"
 #. error box title
 #. txt_error_title
 msgid "I/O Error"
-msgstr "I/O-fel"
+msgstr "I/O fel"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -130,7 +129,7 @@ msgstr "Det här är startdisk %u.\nSätt i startdisk %u."
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr "Det här är inte en <product>-startdisk.\nSätt i startdisk %u."
+msgstr "Det här är ingen <product> startdisk.\nSätt i startdisk %u."
 
 #. password dialog title
 #. txt_password_title
@@ -144,7 +143,7 @@ msgstr "Stäng av"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Vill du stänga av systemet nu?"
+msgstr "Stänga av nu?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -154,11 +153,11 @@ msgstr "Hårddisk"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Hårddiskinstallation"
+msgstr "Installation till hårddisk"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Diskenhet (söker av alla diskar om tom)\n"
+msgstr "Diskenhet (läser av alla diskar om tomt)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -167,7 +166,7 @@ msgstr "Katalog\n"
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "FTP-installation"
+msgstr "FTP installation"
 
 #. txt_server
 msgid "Server\n"
@@ -180,27 +179,27 @@ msgstr "Lösenord\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Användare (anonym inloggning om tomt)\n"
+msgstr "Användare (anonymt login om tomt)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "NFS-installation"
+msgstr "NFS installation"
 
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Användare (använder \"guest\" om tomt)\n"
+msgstr "Användare (använder \"gäst\" om tomt)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windows-utdelning) installation"
+msgstr "SMB (Windows delning) installation"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "HTTP-installation"
+msgstr "HTTP installation"
 
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
@@ -215,7 +214,7 @@ msgstr "Domän\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Fler alternativ"
+msgstr "Andra inställningar"
 
 #. label for language selection
 #. txt_language
@@ -238,35 +237,35 @@ msgstr "Fil"
 #. input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
-msgstr "Utdelning\n"
+msgstr "Delning\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr "Automatiskt läge"
+msgstr "Automatisk metod"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr "Manuellt läge"
+msgstr "Manuell metod"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "Ställ in parametrar på ZEN-partition"
+msgstr "Konfigurera parametrar på ZEN partition"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Installera eller uppdatera ZEN-partition"
+msgstr "Installera eller uppdatera ZEN partition"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Ominstallera starthanterare för ZEN-partition"
+msgstr "Installera om starthanterare för ZEN partition"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "Inaktivera ZEN-partition"
+msgstr "Avaktivera ZEN partition"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Aktivera ZEN-partition"
+msgstr "Aktivera ZEN partition"
 
 #. video mode menu item
 #. txt_text_mode
@@ -276,7 +275,7 @@ msgstr "Textläge"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Test av fast programvara"
+msgstr "Test för inbyggd mjukvara"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -295,7 +294,7 @@ msgstr "Videoläge"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Arkitektur"
+msgstr "Arch"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -306,7 +305,7 @@ msgstr "Kärna"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr "Standard"
+msgstr "Grundinställning"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
@@ -324,7 +323,7 @@ msgstr "Ingen ACPI"
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr "Ingen lokal ACPI"
+msgstr "Ingen lokal APIC"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -334,17 +333,17 @@ msgstr "Tangentbord"
 #. menu item
 #. txt_http_proxy
 msgid "HTTP Proxy"
-msgstr "HTTP Proxy"
+msgstr "HTTP proxy"
 
 #. menu item
 #. txt_network_config
 msgid "Network Config"
-msgstr "Nätverksinställningar"
+msgstr "Konfiguration av nätverk"
 
 #. menu item
 #. txt_no_network
 msgid "No Network"
-msgstr "Inget Nätverk"
+msgstr "Inget nätverk"
 
 #. short menu item for manual network config (NOT some kind of manual)
 #. txt_manual_network
@@ -354,48 +353,48 @@ msgstr "Manuell"
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr "Manuella Nätverksinställningar"
+msgstr "Manuell nätverkskonfiguration"
 
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr "Värd IP\\n"
+msgstr "Värd IP\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
 msgid "Gateway\n"
-msgstr "Gateway\\n"
+msgstr "Nätverksbrygga\n"
 
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
 msgid "Domain Name\n"
-msgstr "Domän Namn\\n"
+msgstr "Domännamn\n"
 
 #. label for nameserver list
 #. txt_nameservers
 msgid "Nameservers (separated by ',')\n"
-msgstr "Namnservers (separera med ',')\\n"
+msgstr "Namnservrar (åtskilda av ',')\n"
 
 #. label for netmask; 'Host IP' refers to label txt_host_ip above
 #. txt_netmask
 msgid ""
 "Netmask\n"
 "(or use '/N' notation with Host IP)\n"
-msgstr "Nätmask (eller använd '/N' anotering med Värd IP)\\n"
+msgstr "Nätmask\n(eller använd '/N' notering med Värd IP)\n"
 
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr "Live System (KDE)"
+msgstr "Direktsystem (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr "Live System (Gnome)"
+msgstr "Direktsystem (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr "Starta Antergos Live"
+msgstr "Starta Antergos direkt"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
@@ -403,7 +402,7 @@ msgstr "Starta (icke-fria drivrutiner)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr "Hårdvaruidentifiering Verktyg"
+msgstr "Verktyg för hårdvarudetektering"
 
 #. txt_no_kms
 msgid "No KMS"

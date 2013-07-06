@@ -3,16 +3,15 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# Aleksey Osipov <aliks-os@yandex.ru>, 2006.
-# Andrew Bogatov<bert@bert2.crec.mipt.ru>, 2004.
-# Serj Volkov <taranarmo@gmail.com>, 2013.
+# Aleksey Osipov <aliks-os@yandex.ru>, 2006
+# Andrew Bogatov<bert@bert2.crec.mipt.ru>, 2004
+# serjvolkov <taranarmo@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: The Antergos Project\n"
-"Report-Msgid-Bugs-To: http://bugs.antergos.com/\n"
-"PO-Revision-Date: 2013-02-02 17:05+0000\n"
-"Last-Translator: Alexandre Filgueira <alexfilgueira@antergos.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/chakra-project/language/ru/)\n"
+"Project-Id-Version: Antergos\n"
+"PO-Revision-Date: 2013-05-09 17:09+0000\n"
+"Last-Translator: faidoc <faidoc@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/antergos/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

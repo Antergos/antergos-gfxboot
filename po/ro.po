@@ -3,14 +3,14 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# Claudiu Costin <claudiuc@kde.org>, 2004.
+# Claudiu Costin <claudiuc@kde.org>, 2004
+# LinuxVideoRO, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: The Antergos Project\n"
-"Report-Msgid-Bugs-To: http://bugs.antergos.com/\n"
-"PO-Revision-Date: 2013-02-02 17:05+0000\n"
-"Last-Translator: Alexandre Filgueira <alexfilgueira@antergos.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/chakra-project/language/ro/)\n"
+"Project-Id-Version: Antergos\n"
+"PO-Revision-Date: 2013-05-21 15:40+0000\n"
+"Last-Translator: LinuxVideoRO\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/antergos/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,7 +25,7 @@ msgstr "OK"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Renunţă"
+msgstr "Anulează"
 
 #. reboot button label
 #. txt_reboot
@@ -47,7 +47,7 @@ msgstr "Linux--Setări sigure"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Bootează de pe hard disc"
+msgstr "Butează de pe discul dur"
 
 #. txt_rescue
 msgid "Rescue System"
@@ -70,7 +70,7 @@ msgstr "Ies..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "Acum părăsiţi modul grafic de boot\nşi intraţi în interfaţa text."
+msgstr "Acum părăsiţi meniul grafic de boot\nşi intraţi în interfaţa text."
 
 #. txt_help
 msgid "Help"
@@ -386,12 +386,12 @@ msgstr "Mască de reţea\n(sau utilizaţi notaţia '/N' cu IP-ul Gazdei)\n"
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "Sistem Live (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Sistem Live (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
@@ -399,11 +399,11 @@ msgstr ""
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Pornire (piloți neliberi)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Unealtă de detectare hardware"
 
 #. txt_no_kms
 msgid "No KMS"

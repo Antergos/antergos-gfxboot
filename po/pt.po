@@ -3,15 +3,15 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# Antonio Cardoso Martins <digiplan@netvisao.pt>, 2005.
-# Elisio Andre Martins Catana <eacatana@netvisao.pt>, 2005.
+# Antonio Cardoso Martins <digiplan@netvisao.pt>, 2005
+# Elisio Andre Martins Catana <eacatana@netvisao.pt>, 2005
+# Helder Meneses <helder.meneses@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: The Antergos Project\n"
-"Report-Msgid-Bugs-To: http://bugs.antergos.com/\n"
-"PO-Revision-Date: 2013-02-02 17:05+0000\n"
-"Last-Translator: Alexandre Filgueira <alexfilgueira@antergos.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/chakra-project/language/pt/)\n"
+"Project-Id-Version: Antergos\n"
+"PO-Revision-Date: 2013-05-28 08:26+0000\n"
+"Last-Translator: Helder Meneses <helder.meneses@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/antergos/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -335,77 +335,77 @@ msgstr "Teclado"
 #. menu item
 #. txt_http_proxy
 msgid "HTTP Proxy"
-msgstr ""
+msgstr "Proxy HTTP"
 
 #. menu item
 #. txt_network_config
 msgid "Network Config"
-msgstr ""
+msgstr "Configuração da ligação de rede"
 
 #. menu item
 #. txt_no_network
 msgid "No Network"
-msgstr ""
+msgstr "Sem ligação de rede"
 
 #. short menu item for manual network config (NOT some kind of manual)
 #. txt_manual_network
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr ""
+msgstr "Configuração manual da ligação de rede"
 
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr ""
+msgstr "IP Servidor\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
 msgid "Gateway\n"
-msgstr ""
+msgstr "Porta de ligação pre-definida\n"
 
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
 msgid "Domain Name\n"
-msgstr ""
+msgstr "Domínio\n"
 
 #. label for nameserver list
 #. txt_nameservers
 msgid "Nameservers (separated by ',')\n"
-msgstr ""
+msgstr "Nameservers (separados por ',')\n"
 
 #. label for netmask; 'Host IP' refers to label txt_host_ip above
 #. txt_netmask
 msgid ""
 "Netmask\n"
 "(or use '/N' notation with Host IP)\n"
-msgstr ""
+msgstr "Mascara de rede\n(ou use '/N' com o endereço IP de destino)\n"
 
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "Sistema de teste (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Sistema de teste (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr ""
+msgstr "Iniciar Antergos Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Iniciar (drivers proprietários)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Ferramenta de detecção de hardware"
 
 #. txt_no_kms
 msgid "No KMS"
-msgstr ""
+msgstr "Sem KMS"
