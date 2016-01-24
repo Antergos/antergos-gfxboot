@@ -3,12 +3,13 @@
 #               2013 The Antergos Project
 # 
 # Translators:
+# Moo, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/projects/p/antergos/language/lt/)\n"
+"PO-Revision-Date: 2016-01-18 18:30+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/faidoc/antergos/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +42,7 @@ msgstr "Diegimas"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux--saugios nuostatos"
+msgstr "Linux--saugūs nustatymai"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -310,7 +311,7 @@ msgstr "Numatytasis"
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
 msgid "Safe Settings"
-msgstr "Saugios nuostatos"
+msgstr "Saugūs nustatymai"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
@@ -384,25 +385,53 @@ msgstr "Tinklo kaukė\n(naudokite „/N“ užrašą su kompiuterio IP)\n"
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "Pristatomoji sistema (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Pristatomoji sistema (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr ""
+msgstr "Paleisti pristatomąją Antergos sistemą"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Paleisti (nuosavybinės tvarkyklės)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Aparatinės Įrangos Aptikimo Įrankis"
 
 #. txt_no_kms
 msgid "No KMS"
-msgstr ""
+msgstr "Be KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Nesklandumų šalinimas"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Intel grafika (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Intel grafika (Visi)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "NVIDIA grafika"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "AMD grafika"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "Negrafinis paleidimas"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Grįžti į pagrindinį meniu"

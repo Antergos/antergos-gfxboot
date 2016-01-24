@@ -3,12 +3,14 @@
 #               2013 The Antergos Project
 # 
 # Translators:
+# Jeff Huang <s8321414@gmail.com>, 2015-2016
+# Jeff Huang <s8321414@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:10+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/antergos/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-01-18 12:52+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/faidoc/antergos/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -389,7 +391,7 @@ msgstr "Live 系統（KDE）"
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Live 系統 (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
@@ -406,3 +408,31 @@ msgstr "硬體偵測工具"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "無 KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Intel 顯示晶片 (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Intel 顯示晶片（所有的）"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "NVIDIA 顯示卡"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "AMD 顯示卡"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "無圖形開機"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "回到主選單"

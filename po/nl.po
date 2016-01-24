@@ -4,13 +4,15 @@
 # 
 # Translators:
 # axelv <axel.chakra@gmail.com>, 2013
+# Michael Tiebesl <inactive+MichaelTiebesl@transifex.com>, 2014
+# Randy Hofstede <randy.hofstede@outlook.com>, 2014
 # Rinse de Vries <rinsedevries@kde.nl>, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/antergos/language/nl/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/faidoc/antergos/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +45,7 @@ msgstr "Installatie"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux - Veilige instellingen"
+msgstr "Linux - veilige instellingen"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -64,7 +66,7 @@ msgstr "Opstartopties"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Beëindigen..."
+msgstr "Bezig met stoppen..."
 
 #. txt_exit_dialog
 msgid ""
@@ -79,7 +81,7 @@ msgstr "Help"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Starten..."
+msgstr "Bezig met starten..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -105,24 +107,24 @@ msgstr "Bootloader"
 #. error box title
 #. txt_error_title
 msgid "I/O Error"
-msgstr "I/O-fout"
+msgstr "I/O Fout"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Opstartdiskette wijzigen"
+msgstr "Opstartschijf wijzigen"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Plaats opstartdiskette %u."
+msgstr "Plaats opstartschijf %u."
 
 #. txt_insert_disk2
 #, c-format
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr "Dit is opstartdiskette %u.\nPlaats a.u.b. opstartdiskette %u."
+msgstr "Dit is opstartschijf %u.\nPlaats a.u.b. opstartschijf %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -140,11 +142,11 @@ msgstr "Wachtwoord"
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "Computer uitgeschakeld"
+msgstr "Computer uitschakelen"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Wilt u nu het systeem stoppen?"
+msgstr "Wilt u het systeem nu stoppen?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -158,7 +160,7 @@ msgstr "Installatie van harde schijf"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Schijfapparaat (indien leeg: alle schijven doorzoeken)\n"
+msgstr "Schijf apparaat (indien leeg: alle schijven doorzoeken)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -167,7 +169,7 @@ msgstr "Map\n"
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "FTP-installatie"
+msgstr "FTP Installatie"
 
 #. txt_server
 msgid "Server\n"
@@ -180,27 +182,27 @@ msgstr "Wachtwoord\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Gebruiker (indien leeg: anonieme aanmelding)\n"
+msgstr "Gebruiker (Anonieme aanmelding indien leeg)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "NFS-installatie"
+msgstr "NFS installatie"
 
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Gebruiker (indien leeg: \"guest\" gebruiken)\n"
+msgstr "Gebruiker (\"guest\" gebruiken indien leeg)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB-installatie (Windows-netwerk)"
+msgstr "SMB installatie (Windows-netwerk)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "HTTP-installatie"
+msgstr "HTTP installatie"
 
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
@@ -238,23 +240,23 @@ msgstr "Bestand"
 #. input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
-msgstr "Bron\n"
+msgstr "Delen\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr "Automatisch"
+msgstr "Automatische modus"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr "Handmatig"
+msgstr "Handmatige modus"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "Parameters op ZEN-partitie instellen"
+msgstr "Parameters op ZEN partitie configureren"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "ZEN-partitie installeren/opwaarderen"
+msgstr "ZEN partitie installeren of updaten"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
@@ -276,7 +278,7 @@ msgstr "Tekstmodus"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Firmware-test"
+msgstr "Firmware test"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -334,7 +336,7 @@ msgstr "Toetsenbord"
 #. menu item
 #. txt_http_proxy
 msgid "HTTP Proxy"
-msgstr "HTTP-proxy"
+msgstr "HTTP Proxy"
 
 #. menu item
 #. txt_network_config
@@ -359,12 +361,12 @@ msgstr "Handmatige netwerkconfiguratie"
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr "Host-IP\n"
+msgstr "Host IP\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
 msgid "Gateway\n"
-msgstr "Gateway\n"
+msgstr "Poort\n"
 
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
@@ -374,7 +376,7 @@ msgstr "Domeinnaam\n"
 #. label for nameserver list
 #. txt_nameservers
 msgid "Nameservers (separated by ',')\n"
-msgstr "Nameservers (gescheiden door ',')\n"
+msgstr "Naamservers (gescheiden door ',')\n"
 
 #. label for netmask; 'Host IP' refers to label txt_host_ip above
 #. txt_netmask
@@ -386,12 +388,12 @@ msgstr "Netmasker\n(of gebruik '/N' notatie met Host-IP)\n"
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr "Live System (KDE)"
+msgstr "Live Systeem (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr "Live System (Gnome)"
+msgstr "Live Systeem (Gnome)"
 
 #. txt_start
 msgid "Start Antergos Live"
@@ -399,7 +401,7 @@ msgstr "Start Antergos Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr "Start (non-free drivers)"
+msgstr "Start (niet-open stuurprogramma's)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
@@ -408,3 +410,31 @@ msgstr "Hardware Detectie Hulpmiddel"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "Geen KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr ""

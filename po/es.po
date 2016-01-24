@@ -6,12 +6,14 @@
 # , 2004
 # Alexandre Filgueira <alexfilgueira@antergos.com>, 2013
 # Ines Pozo <Ines.Pozo@novell.com>, 2005
+# José Alaguna <alagunajs@gmail.com>, 2016
+# Sergio Demian Talavera <sergiodemiantalavera@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/antergos/language/es/)\n"
+"PO-Revision-Date: 2016-01-18 21:03+0000\n"
+"Last-Translator: José Alaguna <alagunajs@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/faidoc/antergos/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -409,3 +411,31 @@ msgstr "Herramienta de detección de hardware"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "Sin KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Solución de problemas"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Gráficas de Intel (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Gráficas Intel (Todas)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "Gráficas de NVIDIA"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "Gráficos AMD"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "Boot no Gráficos"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Volver al menú principal"

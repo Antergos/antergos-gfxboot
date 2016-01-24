@@ -5,12 +5,13 @@
 # Translators:
 # , 2004
 # Andrej Kacian <andrej@kacian.sk>, 2005
+# Dušan Kazik <prescott66@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:10+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/antergos/language/sk/)\n"
+"PO-Revision-Date: 2016-01-18 16:15+0000\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/faidoc/antergos/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +44,7 @@ msgstr "Inštalácia"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux - Bezpečné nastavenie"
+msgstr "Linux - Bezpečné nastavenia"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -59,12 +60,12 @@ msgstr "Test pamäte"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Možnosti štartu"
+msgstr "Voľby štartu"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Končím..."
+msgstr "Ukončuje sa..."
 
 #. txt_exit_dialog
 msgid ""
@@ -79,7 +80,7 @@ msgstr "Pomocník"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Spúšťam..."
+msgstr "Spúšťa sa..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -87,7 +88,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr "Načítavam linuxové jadro\n\n\n"
+msgstr "Načítava sa linuxové jadro\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -95,7 +96,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Načítavam memtest86\n\n\n"
+msgstr "Načítava sa memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
@@ -105,24 +106,24 @@ msgstr "Správca štartu"
 #. error box title
 #. txt_error_title
 msgid "I/O Error"
-msgstr "Chyba vstupu/výstupu"
+msgstr "Vstupno/výstupná chyba"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Zmena štartovacej diskety"
+msgstr "Zmena spúšťacieho disku"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Prosím, vložte štartovaciu disketu %u."
+msgstr "Prosím, vložte spúšťací disk %u."
 
 #. txt_insert_disk2
 #, c-format
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr "Toto je štartovacia disketa %u.\nProsím, vložte štartovaciu disketu %u."
+msgstr "Toto je spúšťací disk %u.\nVložte spúšťací disk %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -130,7 +131,7 @@ msgstr "Toto je štartovacia disketa %u.\nProsím, vložte štartovaciu disketu 
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr "Toto nie je štartovacia disketa <product>.\nProsím, vložte štartovaciu disketu %u."
+msgstr "Toto nie je spúšťací disk systému <product>.\nVložte spúšťací disk %u."
 
 #. password dialog title
 #. txt_password_title
@@ -144,7 +145,7 @@ msgstr "Vypnúť"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Chcete vypnúť počítač teraz?"
+msgstr "Chcete teraz počítač vypnúť?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -158,7 +159,7 @@ msgstr "Inštalácia na pevný disk"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Diskové zariadenie (prehľadá všetky disky, ak necháte prázdne)\n"
+msgstr "Diskové zariadenie (ak necháte prázdne, prehľadá všetky disky)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -180,7 +181,7 @@ msgstr "Heslo\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Používateľ (ak necháte prázdne, použije anonymné prihlásenie)\n"
+msgstr "Používateľ (ak necháte prázdne, použije sa anonymné prihlásenie)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -190,7 +191,7 @@ msgstr "NFS Inštalácia"
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Používateľ (ak necháte prázdne, použije \"guest\")\n"
+msgstr "Používateľ (ak necháte prázdne, použije sa \"guest\")\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -386,25 +387,53 @@ msgstr "Sieťová maska\n(alebo '/N' použite notáciu s IP hostiteľa)\n"
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "Live systém (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Live systém (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr ""
+msgstr "Spustiť systém Antergos Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Spustiť (neslobodné ovládače)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Nástroj na rozpoznanie hardvéru"
 
 #. txt_no_kms
 msgid "No KMS"
-msgstr ""
+msgstr "Žiadne KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Pomoc s riešením problémov"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Grafická karta Intel (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Grafická karta Intel (Všetky)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "Grafická karta NVIDIA"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "Grafická karta AMD"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "Spustenie bez grafického režimu"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Návrat do hlavnej ponuky"

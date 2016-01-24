@@ -3,12 +3,16 @@
 #               2013 The Antergos Project
 # 
 # Translators:
+# ahmed nabil <one.man100100@gmail.com>, 2014
+# Hamam <hmam.ayman@gmail.com>, 2015
+# naeem khaleel <naeem.tayseer@gmail.com>, 2015
+# صفا الفليج <safaalfulaij@hotmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/antergos/language/ar/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/faidoc/antergos/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,66 +22,66 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "موافق"
+msgstr "حسنًا"
 
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr "ألغِ"
 
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "إعادة تشغيل"
+msgstr "أعد الإقلاع"
 
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "متابعة"
+msgstr "تابع"
 
 #. txt_install
 msgid "Installation"
-msgstr "التثبيت"
+msgstr "التّثبيت"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux--إعدادات آمنة"
+msgstr "لينكس--إعدادات آمنة"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "تشغيل من القرص الصلب"
+msgstr "أقلع من القرص الصّلب"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "نظام الإنقاذ"
+msgstr "أنقذ النّظام"
 
 #. txt_memtest
 msgid "Memory Test"
-msgstr "اختبار الذاكرة"
+msgstr "اختبار الذّاكرة"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "خيارات التشغيل"
+msgstr "خيارات الإقلاع"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "خروج..."
+msgstr "يخرج..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "تتم الآن مغادرة قائمة التشغيل الرسومية و\nبدء تشغيل واجهة وضع النص."
+msgstr "أنت تخرج من قائمة الإقلاع الرسوميّة\nوتبدأ وضع الواجهة النّصّيّة."
 
 #. txt_help
 msgid "Help"
-msgstr "تعليمات"
+msgstr "مساعدة"
 
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "بدء..."
+msgstr "يبدأ..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -85,7 +89,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr "تحميل Linux Kernel\n\n \n"
+msgstr "يحمّل نواة لينكس\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -93,34 +97,34 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "تحميل memtest86\n\n \n"
+msgstr "يحمّل اختبار الذّاكرة86\n\n \n"
 
 #. info box title
 #. txt_info_title
 msgid "Boot Loader"
-msgstr "أداة تحميل التشغيل"
+msgstr "محمّل الإقلاع"
 
 #. error box title
 #. txt_error_title
 msgid "I/O Error"
-msgstr "خطأ في المدخلات/المخرجات"
+msgstr "خطأ دَخْل/خَرْج"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "تغيير قرص التشغيل"
+msgstr "غيّر قرص الإقلاع"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "أدخل قرص التشغيل %u."
+msgstr "أدخل قرص الإقلاع %u."
 
 #. txt_insert_disk2
 #, c-format
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr "هذا هو قرص التشغيل %u.\nأدخل قرص التشغيل %u."
+msgstr "هذا قرص الإقلاع %u.\nأدخل قرص الإقلاع %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -128,39 +132,39 @@ msgstr "هذا هو قرص التشغيل %u.\nأدخل قرص التشغيل %u
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr "هذا ليس <product>قرص تشغيل.\nأدخل قرص التشغيل %u."
+msgstr "هذا ليس <product>قرص إقلاع.\nأدخل قرص الإقلاع %u."
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "كلمة السر"
+msgstr "كلمة المرور"
 
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "إيقاف التشغيل"
+msgstr "أطفئ"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "هل تريد إيقاف النظام الآن؟"
+msgstr "أأطفئ النّظام الآن؟"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
 msgid "Hard Disk"
-msgstr "القرص الصلب"
+msgstr "القرص الصّلب"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "تثبيت القرص الصلب"
+msgstr "التّثبيت على القرص الصّلب"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "جهاز القرص (مسح كافة الأقراص إذا كان فارغًا)\n"
+msgstr "جهاز القرص (سأفحص كلّّ الأقراص إن كان فارغًا)\n"
 
 #. txt_directory
 msgid "Directory\n"
-msgstr "الدليل\n"
+msgstr "الدّليل\n"
 
 #. dialog title for ftp installation
 #. txt_ftp_title
@@ -169,16 +173,16 @@ msgstr "تثبيت FTP"
 
 #. txt_server
 msgid "Server\n"
-msgstr "الخادم\n"
+msgstr "الخادوم\n"
 
 #. txt_password
 msgid "Password\n"
-msgstr "كلمة السر\n"
+msgstr "كلمة المرور\n"
 
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "المستخدم (تسجيل دخول مجهول إذا كان الحقل فارغًا)\n"
+msgstr "المستخدم (ولوج مجهول إن كان فارغًا)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -188,12 +192,12 @@ msgstr "تثبيت NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "المستخدم (يتم استخدام \"ضيف\" إذا كان الحقل فارغًا)\n"
+msgstr "المستخدم (سأستخدم \"ضيف\" إن كان فارغًا)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "تثبيت SMB‏ (مشاركة Windows)"
+msgstr "تثبيت SMB‏ (مشاركة وِندوز)"
 
 #. dialog title for http installation
 #. txt_http_title
@@ -203,7 +207,7 @@ msgstr "تثبيت HTTP"
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
-msgstr "برنامج التشغيل"
+msgstr "التّعريف"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -231,7 +235,7 @@ msgstr "لا"
 #. menu item for selecting a file
 #. txt_file
 msgid "File"
-msgstr "ملف"
+msgstr "ملفّ"
 
 #. input label: share as in "Windows share" (SMB)
 #. txt_share
@@ -240,89 +244,89 @@ msgstr "مشاركة\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr "وضع تلقائي"
+msgstr "وضع آليّ"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr "وضع يدوي"
+msgstr "وضع يدويّ"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "تكوين معلمات في قسم ZEN"
+msgstr "اضبط معاملات قسم ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "تثبيت قسم ZEN أو تحديثه"
+msgstr "ثبّت قسم ZEN أو حدّثه"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "إعادة تثبيت أداة تحميل تشغيل قسم ZEN"
+msgstr "أعد تثبيت محمّل إقلاع قسم ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "تعطيل قسم ZEN"
+msgstr "عطّل قسم ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "تمكين قسم ZEN"
+msgstr "مكّن قسم ZEN"
 
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr "وضع النص"
+msgstr "الوضع النّصّيّ"
 
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "اختبار البرنامج الثابت"
+msgstr "اختبار البرمجيّات المضمّنة"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr ""
+msgstr "المصدر"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "وضع الفيديو"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "الهيكل"
+msgstr "المعماريّة"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel"
-msgstr ""
+msgstr "النّواة"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "الافتراضيّة"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
 msgid "Safe Settings"
-msgstr ""
+msgstr "إعدادات الأمن"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "لا ACPI"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "لا ACPI محلّيّ"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -332,77 +336,105 @@ msgstr "لوحة المفاتيح"
 #. menu item
 #. txt_http_proxy
 msgid "HTTP Proxy"
-msgstr ""
+msgstr "وسيط HTTP"
 
 #. menu item
 #. txt_network_config
 msgid "Network Config"
-msgstr ""
+msgstr "إعدادات الشّبكة"
 
 #. menu item
 #. txt_no_network
 msgid "No Network"
-msgstr ""
+msgstr "لا شبكات"
 
 #. short menu item for manual network config (NOT some kind of manual)
 #. txt_manual_network
 msgid "Manual"
-msgstr ""
+msgstr "يدويًّا"
 
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr ""
+msgstr "اضبط الشّبكة يدويًّا"
 
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr ""
+msgstr "IP المضيف\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
 msgid "Gateway\n"
-msgstr ""
+msgstr "البوّابة\n"
 
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
 msgid "Domain Name\n"
-msgstr ""
+msgstr "اسم النطاق\n"
 
 #. label for nameserver list
 #. txt_nameservers
 msgid "Nameservers (separated by ',')\n"
-msgstr ""
+msgstr "أسماء الخوادِم (مفصولة بِـ ',')\n"
 
 #. label for netmask; 'Host IP' refers to label txt_host_ip above
 #. txt_netmask
 msgid ""
 "Netmask\n"
 "(or use '/N' notation with Host IP)\n"
-msgstr ""
+msgstr "قناع الشّبكة\n(أو استخدم تدوينة '‎\\N' مع IP المضيف)\n"
 
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "النّظام الحيّ (كدي)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "النّظام الحيّ (غنوم)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr ""
+msgstr "ابدأ أنتيرغوس الحيّة"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "ابدأ (تعريفات غير حرّة)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "أداة اكتشاف العتاد"
 
 #. txt_no_kms
 msgid "No KMS"
+msgstr "لا يوجد KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
 msgstr ""

@@ -4,12 +4,14 @@
 # 
 # Translators:
 # Alexandre Filgueira <alexfilgueira@antergos.com>, 2013
+# Gustau Castells <karasu@antergos.com>, 2014
+# Davidmp <medipas@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/antergos/language/ca/)\n"
+"PO-Revision-Date: 2016-01-18 16:14+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/faidoc/antergos/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -69,7 +71,7 @@ msgstr "Sortida..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "Esteu sortint del menú d'arrencada gràfic i\niniciant la interfície del mode text."
+msgstr "Esteu sortint del menú d'arrencada gràfic i\niniciant la interfície de mode text."
 
 #. txt_help
 msgid "Help"
@@ -99,7 +101,7 @@ msgstr "Càrrega del memtest86\n\n\n"
 #. info box title
 #. txt_info_title
 msgid "Boot Loader"
-msgstr "Carregador d'arrencada"
+msgstr "Gestor d'arrencada"
 
 #. error box title
 #. txt_error_title
@@ -219,7 +221,7 @@ msgstr "Altres opcions"
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr "Idioma"
+msgstr "Llengua"
 
 #. txt_yes
 msgid "Yes"
@@ -294,7 +296,7 @@ msgstr "Mode de vídeo"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Arquit."
+msgstr "Arq."
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -385,20 +387,20 @@ msgstr "Màscara de xarxa\n(o useu la notació «/N» amb IP de màquina)\n"
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr "Sistema Live (KDE)"
+msgstr "Sistema viu (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr "Sistema Live (GNOME)"
+msgstr "Sistema viu (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr "Inicia el sistema Antergos Live"
+msgstr "Inicia el sistema viu Antergos"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr "Inicia (controladors no-lliures)"
+msgstr "Inicia (controladors no lliures)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
@@ -407,3 +409,31 @@ msgstr "Eina de detecció de maquinari"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "Sense KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Resolució de problemes"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Intel Graphics (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Gràfics d'Intel (Tot)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "Gràfics d'NVIDIA"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "Gràfics d'AMD"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "Arrencada no gràfica"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Torna al menú principal"

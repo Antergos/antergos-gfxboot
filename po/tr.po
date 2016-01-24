@@ -4,12 +4,14 @@
 # 
 # Translators:
 # Atilla Öntaş <tarakbumba@gmail.com>, 2013
+# Taylan Tatlı <taylantatli90@gmail.com>, 2014
+# yasin inat <risyasin@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/antergos/language/tr/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/faidoc/antergos/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,11 +48,11 @@ msgstr "Linux--Güvenli ayarlar"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Sistemi sabit diskten aç"
+msgstr "Sistemi sabit diskten başlat"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Kurtarma sistemi"
+msgstr "Sistem Kurtarma"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -58,7 +60,7 @@ msgstr "Bellek testi"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Açılış seçenekleri"
+msgstr "Başlangıç seçenekleri"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -104,7 +106,7 @@ msgstr "Açılış yükleyicisi"
 #. error box title
 #. txt_error_title
 msgid "I/O Error"
-msgstr "Giriş/Çıkış hatası"
+msgstr "Girdi/Çıktı hatası"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -353,7 +355,7 @@ msgstr "Elle"
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr "Ell Ağ Yapılandırması"
+msgstr "Elle Ağ Yapılandırması"
 
 #. label for ip address
 #. txt_host_ip
@@ -363,7 +365,7 @@ msgstr "Makine IP numarası\n"
 #. label for gateway ip
 #. txt_gateway_ip
 msgid "Gateway\n"
-msgstr "Dış Kapı\n"
+msgstr "Ağ Geçidi\n"
 
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
@@ -407,3 +409,31 @@ msgstr "Donanım Algılama Aracı"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "KMS Yok"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr ""

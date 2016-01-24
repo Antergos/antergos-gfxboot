@@ -3,15 +3,16 @@
 #               2013 The Antergos Project
 # 
 # Translators:
+# am gomes, 2015
 # Antonio Cardoso Martins <digiplan@netvisao.pt>, 2005
 # Elisio Andre Martins Catana <eacatana@netvisao.pt>, 2005
-# Helder Meneses <helder.meneses@gmail.com>, 2013
+# Helder Meneses <helder.meneses@gmail.com>, 2013,2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-28 08:26+0000\n"
+"PO-Revision-Date: 2016-01-19 17:04+0000\n"
 "Last-Translator: Helder Meneses <helder.meneses@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/antergos/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/faidoc/antergos/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -255,7 +256,7 @@ msgstr "Configurar parâmetros na partição ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Instalar ou Actualizar partição ZEN"
+msgstr "Instalar ou Actualizar a partição ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
@@ -267,7 +268,7 @@ msgstr "Desactivar partição ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Activar partição ZEN"
+msgstr "Activar a partição ZEN"
 
 #. video mode menu item
 #. txt_text_mode
@@ -277,7 +278,7 @@ msgstr "Modo de Texto"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Testar Firmware"
+msgstr "Testar a Firmware"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -325,7 +326,7 @@ msgstr "Sem ACPI"
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr "Sem Local APIC"
+msgstr "Sem APIC Local"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -370,7 +371,7 @@ msgstr "Porta de ligação pre-definida\n"
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
 msgid "Domain Name\n"
-msgstr "Domínio\n"
+msgstr "Nome do Domínio\n"
 
 #. label for nameserver list
 #. txt_nameservers
@@ -409,3 +410,31 @@ msgstr "Ferramenta de detecção de hardware"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "Sem KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Resolução de problemas"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Gráficas Intel (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Gráficas Intel (Todas)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "Gráficas NVIDIA"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "Gráficas AMD"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Voltar ao menu principal"

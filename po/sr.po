@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:10+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/antergos/language/sr/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/faidoc/antergos/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -405,4 +405,32 @@ msgstr ""
 
 #. txt_no_kms
 msgid "No KMS"
+msgstr ""
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
 msgstr ""

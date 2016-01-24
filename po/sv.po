@@ -3,13 +3,13 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# mats_bjork007 <mats_bjork007@yahoo.se>, 2013
+# Mats Björklund <mats_bjork007@yahoo.se>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-23 10:26+0000\n"
-"Last-Translator: mats_bjork007 <mats_bjork007@yahoo.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/antergos/language/sv/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/faidoc/antergos/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -407,3 +407,31 @@ msgstr "Verktyg för hårdvarudetektering"
 #. txt_no_kms
 msgid "No KMS"
 msgstr "Ingen KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr ""

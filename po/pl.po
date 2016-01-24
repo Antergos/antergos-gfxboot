@@ -3,14 +3,16 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# galkowskit <galkowski.t@gmail.com>, 2013
+# adiq <adiq117@gmail.com>, 2013
+# Hubert Cwajda <cwajdahubert@gmail.com>, 2015
+# Tomasz Gałkowski <galkowski.t@gmail.com>, 2013
 # Wojciech Kapusta <wojciech@aviary.pl>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-14 19:34+0000\n"
-"Last-Translator: galkowskit <galkowski.t@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/antergos/language/pl/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/faidoc/antergos/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -403,8 +405,36 @@ msgstr "Uruchom (nie-wolne sterowniki)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Narzędzie wykrywania sprzętu"
 
 #. txt_no_kms
 msgid "No KMS"
+msgstr "Nie KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
 msgstr ""

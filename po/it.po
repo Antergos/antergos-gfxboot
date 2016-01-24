@@ -3,15 +3,17 @@
 #               2013 The Antergos Project
 # 
 # Translators:
-# Lorenzo Porta <cybermight.gm@gmail.com>, 2013
+# FABIO SASSI <infinito8824@gmail.com>, 2015-2016
+# lorenzoporta, 2013
 # Luca Giambonini <gluca86@gmail.com>, 2013
-# skinth <skinth91@gmail.com>, 2013
+# Saverio <saverio.brancaccio@gmail.com>, 2014
+# Skinth <skinth91@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-06-23 14:32+0000\n"
-"Last-Translator: skinth <skinth91@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/antergos/language/it/)\n"
+"PO-Revision-Date: 2016-01-18 19:46+0000\n"
+"Last-Translator: FABIO SASSI <infinito8824@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/faidoc/antergos/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,7 +73,7 @@ msgstr "Uscita in corso..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "State per uscire dal menu di avvio grafico e\nper avviare l'interfaccia nel modo testo."
+msgstr "State per uscire dal menu di avvio grafico e\nsi sta lanciando l'interfaccia in modalità testuale."
 
 #. txt_help
 msgid "Help"
@@ -131,7 +133,7 @@ msgstr "Questo è il disco di avvio %u.\nInserire il disco di avvio %u."
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr "Questo non è un disco di avvio di <prodotto>.\nInserire il disco di avvio %u."
+msgstr "Questo non è un disco di avvio di <product>.\nInserire il disco di avvio %u."
 
 #. password dialog title
 #. txt_password_title
@@ -155,15 +157,15 @@ msgstr "Disco rigido"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Installazione disco rigido"
+msgstr "Installazione del disco rigido"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Dispositivo disco (se vuoto analizza tutti i dischi)\n"
+msgstr "Dispositivo a disco (analizza tutti i dischi se vuoto)\n"
 
 #. txt_directory
 msgid "Directory\n"
-msgstr "Directory\n"
+msgstr "Cartella\n"
 
 #. dialog title for ftp installation
 #. txt_ftp_title
@@ -191,7 +193,7 @@ msgstr "Installazione NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Utente (se vuoto viene utilizzato \"guest\")\n"
+msgstr "Utente (sarà usato \"guest\" se vuoto)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -251,28 +253,28 @@ msgstr "Modalità manuale"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "Configura parametri nella partizione ZEN"
+msgstr "Configura i parametri sulla partizione ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Installa o aggiorna partizione ZEN"
+msgstr "Installa o aggiorna la partizione ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Reinstalla caricatore di avvio partizione ZEN"
+msgstr "Reinstalla il boot loader della partizione ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "Disabilita partizione ZEN"
+msgstr "Disabilita la partizione ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Abilita partizione ZEN"
+msgstr "Abilita la partizione ZEN"
 
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr "Modalità testo"
+msgstr "Modalità testuale"
 
 #. menu item, like 'memory test'
 #. txt_firmware
@@ -296,7 +298,7 @@ msgstr "Modalità video"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Architettura"
+msgstr "Arch"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -319,13 +321,13 @@ msgstr "Impostazioni sicure"
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr "No ACPI"
+msgstr "Nessun ACPI"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr "No Local APIC"
+msgstr "Nessun APIC locale"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -340,7 +342,7 @@ msgstr "Proxy HTTP"
 #. menu item
 #. txt_network_config
 msgid "Network Config"
-msgstr "Configurazione Rete"
+msgstr "Configurazione di Rete"
 
 #. menu item
 #. txt_no_network
@@ -355,12 +357,12 @@ msgstr "Manuale"
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr "Configurazione manuale della rete"
+msgstr "Configurazione manuale di rete"
 
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr "IP Host\n"
+msgstr "IP dell'host\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
@@ -382,7 +384,7 @@ msgstr "Server dei nomi (separati da ',')\n"
 msgid ""
 "Netmask\n"
 "(or use '/N' notation with Host IP)\n"
-msgstr "Netmask\n(o utilizza la notazione '/N' con l'IP dell'host)\n"
+msgstr "Netmask\n(o utilizza la notazione '/N' con IP dell'host)\n"
 
 #. label for Live CD installation
 #. txt_live_kde
@@ -400,12 +402,40 @@ msgstr "Avvia Antergos Live"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr "Avvia (driver non-free)"
+msgstr "Avvia (driver non-liberi)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr "Strumento per la rilevazione dell'hardware"
+msgstr "Strumento per rilevare l'hardware"
 
 #. txt_no_kms
 msgid "No KMS"
-msgstr "No KMS"
+msgstr "Nessun KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr "Risoluzione problemi"
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr "Grafica INTEL (Skylake)"
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr "Grafica INTEL (tutto)"
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr "grafica NVIDIA"
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr "Grafica AMD"
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr "Avvio non grafico"
+
+#. txt_returntomain
+msgid "Return to main menu"
+msgstr "Ritorna al menu principale"

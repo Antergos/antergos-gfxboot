@@ -3,12 +3,13 @@
 #               2013 The Antergos Project
 # 
 # Translators:
+# Stefan van der Merwe <svdm32@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2013-05-09 17:09+0000\n"
-"Last-Translator: faidoc <faidoc@gmail.com>\n"
-"Language-Team: Afrikaans (http://www.transifex.com/projects/p/antergos/language/af/)\n"
+"PO-Revision-Date: 2016-01-18 10:31+0000\n"
+"Last-Translator: Alexandre Filgueira <faidoc@gmail.com>\n"
+"Language-Team: Afrikaans (http://www.transifex.com/faidoc/antergos/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -299,7 +300,7 @@ msgstr "Arg."
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel"
-msgstr ""
+msgstr "Kern"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
@@ -310,13 +311,13 @@ msgstr ""
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
 msgid "Safe Settings"
-msgstr ""
+msgstr "Veilige Instellings"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "Geen ACPI"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
@@ -342,7 +343,7 @@ msgstr ""
 #. menu item
 #. txt_no_network
 msgid "No Network"
-msgstr ""
+msgstr "Geen Netwerk"
 
 #. short menu item for manual network config (NOT some kind of manual)
 #. txt_manual_network
@@ -352,12 +353,12 @@ msgstr ""
 #. dialog title for manual network config
 #. txt_manual_network_title
 msgid "Manual Network Config"
-msgstr ""
+msgstr "Stel Self Netwerk In"
 
 #. label for ip address
 #. txt_host_ip
 msgid "Host IP\n"
-msgstr ""
+msgstr "Gasheer IP\n"
 
 #. label for gateway ip
 #. txt_gateway_ip
@@ -367,12 +368,12 @@ msgstr ""
 #. label for dns domain name (like 'opensuse.org')
 #. txt_domain_name
 msgid "Domain Name\n"
-msgstr ""
+msgstr "Domein Naam\n"
 
 #. label for nameserver list
 #. txt_nameservers
 msgid "Nameservers (separated by ',')\n"
-msgstr ""
+msgstr "Naambedieners (geskei deur ',')\n\n"
 
 #. label for netmask; 'Host IP' refers to label txt_host_ip above
 #. txt_netmask
@@ -384,12 +385,12 @@ msgstr ""
 #. label for Live CD installation
 #. txt_live_kde
 msgid "Live System (KDE)"
-msgstr ""
+msgstr "Lewendige Stelsel (KDE)"
 
 #. label for Live CD installation
 #. txt_live_gnome
 msgid "Live System (GNOME)"
-msgstr ""
+msgstr "Lewendige Stelsel (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
@@ -397,12 +398,40 @@ msgstr ""
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Begin (non-gratis drywers)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Hardeware Opsporing Hulpmiddel"
 
 #. txt_no_kms
 msgid "No KMS"
+msgstr "Geen KMS"
+
+#. txt_Troubleshooting
+msgid "Troubleshooting"
+msgstr ""
+
+#. txt_skylake
+msgid "Intel Graphics (Skylake)"
+msgstr ""
+
+#. txt_intel
+msgid "Intel Graphics (All)"
+msgstr ""
+
+#. txt_nvidia
+msgid "NVIDIA Graphics"
+msgstr ""
+
+#. txt_amd
+msgid "AMD Graphics"
+msgstr ""
+
+#. txt_multi
+msgid "Non-Graphical Boot"
+msgstr ""
+
+#. txt_returntomain
+msgid "Return to main menu"
 msgstr ""
