@@ -1,16 +1,15 @@
 
 Welcome to Antergos !
 
-To start the system enter 'start and press <return>
+To start the system input 'start' and press <Enter>
 
 
 Available boot options:
+harddisk                 - Boot From Hard Disk
 start                    - Start Antergos Live System
-harddisk                 - Local Boot From Hard Disk
 skylake                  - Boot Troubleshooting For Intel Skylake Graphics
 intel                    - Boot Troubleshooting For Intel Graphics (All)
 nvidia                   - Boot Troubleshooting For NVIDIA Graphics
 amd                      - Boot Troubleshooting For AMD Graphics
 multi                    - Non-Graphical Boot
-hdt                      - Run Hardware Detection Tool
 memtest                  - Run Memory Test
