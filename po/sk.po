@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2016-01-18 16:15+0000\n"
+"PO-Revision-Date: 2016-01-26 11:00+0000\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/faidoc/antergos/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -207,6 +207,45 @@ msgstr "HTTP Inštalácia"
 #. txt_driver_update
 msgid "Driver"
 msgstr "Ovládač"
+
+#. menu label for an update (as opposed to a new installation)
+#. txt_upgrade
+msgid "Upgrade"
+msgstr "Inovovať"
+
+#. menu title
+#. txt_dud_download
+msgid "Download Driver Update"
+msgstr "Prevzatie aktualizácie ovládačov"
+
+#. input label
+#. txt_dud_enter_url
+msgid "Enter Driver Update URL\n"
+msgstr "Zadajte adresu URL aktualizácie ovládačov\n"
+
+#. txt_dud_file_msg
+#, wrap
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
+msgstr "Pre načítanie aktualizácií ovládačov priamo\nz disku CD-ROM, zadajte názvy súborov\naktualizácií ovládačov (oddelené čiarkami \",\")\nsem:\n"
+
+#. main menu: start in system repair mode
+#. txt_repain_system
+msgid "Repair Installed System"
+msgstr "Opraviť nainštalovaný systém"
+
+#. menu item
+#. txt_mediacheck
+msgid "Check Installation Media"
+msgstr "Skontrolovať inštalačné médium"
+
+#. driver update dialog title
+#. -> txt_dud_file_msg
+#. txt_driver_update2
+msgid "Driver Update"
+msgstr "Aktualizácia ovládačov"
 
 #. as in Windows Authentication Domain
 #. txt_domain

@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Antergos\n"
-"PO-Revision-Date: 2016-01-18 10:43+0000\n"
+"PO-Revision-Date: 2016-01-26 10:59+0000\n"
 "Last-Translator: Dz Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/faidoc/antergos/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -209,6 +209,45 @@ msgstr "HTTP 安装"
 #. txt_driver_update
 msgid "Driver"
 msgstr "驱动程序"
+
+#. menu label for an update (as opposed to a new installation)
+#. txt_upgrade
+msgid "Upgrade"
+msgstr "升级"
+
+#. menu title
+#. txt_dud_download
+msgid "Download Driver Update"
+msgstr "下载驱动程序更新"
+
+#. input label
+#. txt_dud_enter_url
+msgid "Enter Driver Update URL\n"
+msgstr "输入驱动程序更新 URL\n"
+
+#. txt_dud_file_msg
+#, wrap
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
+msgstr "若要直接从光盘中加载驱动更新，请在这里输入驱动程序更新文件名称 (以逗号“，”分隔)：\n"
+
+#. main menu: start in system repair mode
+#. txt_repain_system
+msgid "Repair Installed System"
+msgstr "修复已安装系统"
+
+#. menu item
+#. txt_mediacheck
+msgid "Check Installation Media"
+msgstr "检验安装媒体"
+
+#. driver update dialog title
+#. -> txt_dud_file_msg
+#. txt_driver_update2
+msgid "Driver Update"
+msgstr "驱动程序更新"
 
 #. as in Windows Authentication Domain
 #. txt_domain

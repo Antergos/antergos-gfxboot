@@ -15,7 +15,7 @@ sub read_texts;
 sub join_msg;
 sub fribidi;
 
-$opt_product = "openSUSE";
+$opt_product = "Antergos";
 
 GetOptions(
   'product=s' => \$opt_product,
