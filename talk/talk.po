@@ -1,0 +1,806 @@
+# main menu
+
+msgid "Boot from Hard Disk"
+msgstr ""
+
+msgid "Installation"
+msgstr ""
+
+msgid "Repair Installed System"
+msgstr ""
+
+msgid "Rescue System"
+msgstr ""
+
+msgid "Check Installation Media"
+msgstr ""
+
+msgid "Firmware Test"
+msgstr ""
+
+msgid "Memory Test"
+msgstr ""
+
+msgid "openSUSE 11.3"
+msgstr ""
+
+msgid "openSUSE 11.3 - Desktop"
+msgstr ""
+
+msgid "Hard-Disk"
+msgstr ""
+
+msgid "openSUSE Live (GNOME)"
+msgstr ""
+
+msgid "openSUSE Live (KDE)"
+msgstr ""
+
+msgid "Failsafe Settings"
+msgstr ""
+
+
+# panel texts
+
+msgid "Help"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Video Mode"
+msgstr ""
+
+msgid "Source"
+msgstr "Installation Source"
+
+msgid "Kernel"
+msgstr ""
+
+msgid "Driver"
+msgstr "Driver Update"
+
+msgid "Arch"
+msgstr "Architecture"
+
+msgid "Keyboard"
+msgstr ""
+
+
+# language menu
+
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+msgid "\xef\xbb\xb2\xef\xba\x91\xef\xba\xae\xef\xbb\x8b"
+msgstr "Arabic"
+
+msgid "Български"
+msgstr "Bulgarian"
+
+msgid "\xe0\xa6\xac\xe0\xa6\xbe\xe0\xa6\x82\xe0\xa6\xb2\xe0\xa6"
+msgstr "Bengali"
+
+msgid "Bosanski"
+msgstr "Bosnian"
+
+msgid "Català"
+msgstr "Catalan"
+
+msgid "Čeština"
+msgstr "Czech"
+
+msgid "Cymraeg"
+msgstr "Welsh"
+
+msgid "Dansk"
+msgstr "Danish"
+
+msgid "Deutsch"
+msgstr "German"
+
+msgid "Ελληνικά"
+msgstr "Greek"
+
+msgid "English (UK)"
+msgstr "English (UK)"
+
+msgid "English (US)"
+msgstr "English (US)"
+
+msgid "Español"
+msgstr "Spanish"
+
+msgid "Eesti"
+msgstr "Estonian"
+
+msgid "\xef\xaf\xbd\xef\xba\xb4\xd8\xb1\xef\xba\x8e\xef\xbb\x93"
+msgstr "Farsi"
+
+msgid "Suomi"
+msgstr "Finnish"
+
+msgid "Français"
+msgstr "French"
+
+msgid "Galego"
+msgstr "Galician"
+
+msgid "ქართული"
+msgstr "Kartuli"
+
+msgid "\xe0\xaa\x97\xe0\xab\x81\xe0\xaa\x9c\xe0\xaa\xb0\xe0\xaa\xbe\xe0\xaa\xa4\xe0\xab\x80"
+msgstr "Gujarati"
+
+msgid "תירבע"
+msgstr "Hebrew"
+
+msgid "\xe0\xa4\xb9\xe0\xa4\xbf\xe0\xa4\x82\xe0\xa4\xa6\xe0\xa5\x80"
+msgstr "Hindi"
+
+msgid "Hrvatski"
+msgstr "Croatian"
+
+msgid "Magyar"
+msgstr "Hungarian"
+
+msgid "Bahasa Indonesia"
+msgstr "Indonesian"
+
+msgid "Italiano"
+msgstr "Italian"
+
+msgid "日本語"
+msgstr "Japanese"
+
+msgid "Basa Jawa"
+msgstr "Javanese"
+
+msgid "Khmer"
+msgstr "Khmer"
+
+msgid "한글"
+msgstr "Korean"
+
+msgid "Кыргызча"
+msgstr "Kirghiz"
+
+msgid "\xe0\xba\x9e\xe0\xba\xb2\xe0\xba\xaa\xe0\xba\xb2\xe0\xba\xa5\xe0\xba\xb2\xe0\xba\xa7"
+msgstr "Lao"
+
+msgid "Lietuvių"
+msgstr "Lithuanian"
+
+msgid "Македонски"
+msgstr "Macedonian"
+
+msgid "\xe0\xa4\xae\xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\xa0\xe0\xa5\x80"
+msgstr "Marathi"
+
+msgid "Norsk"
+msgstr "Norwegian"
+
+msgid "Nederlands"
+msgstr "Dutch"
+
+msgid "Nynorsk"
+msgstr "Nynorsk"
+
+msgid "\xe0\xa8\xaa\xe0\xa9\xb0\xe0\xa8\x9c\xe0\xa8\xbe\xe0\xa8\xac\xe0\xa9\x80"
+msgstr "Punjabi"
+
+msgid "Polski"
+msgstr "Polish"
+
+msgid "Português (Brasil)"
+msgstr "Portuguese (Brazilian)"
+
+msgid "Português"
+msgstr "Portuguese"
+
+msgid "Română"
+msgstr "Romanian"
+
+msgid "Русский"
+msgstr "Russian"
+
+msgid "\xe0\xb7\x83\xe0\xb7\x92\xe0\xb6\x82\xe0\xb7\x84\xe0\xb6\xbd"
+msgstr "Sinhala"
+
+msgid "Slovenčina"
+msgstr "Slovak"
+
+msgid "Slovenščina"
+msgstr "Slovenian"
+
+msgid "Srpski"
+msgstr "Serbian"
+
+msgid "Svenska"
+msgstr "Swedish"
+
+msgid "\xe0\xae\xa4\xe0\xae\xae\xe0\xae\xbf\xe0\xae\xb4\xe0\xaf\x8d"
+msgstr "Tamil"
+
+msgid "тоҷикӣ"
+msgstr "Tadjik"
+
+msgid "\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2"
+msgstr "Thai"
+
+msgid "Türkçe"
+msgstr "Turkish"
+
+msgid "Українська"
+msgstr "Ukrainian"
+
+msgid "Tiếng Việt"
+msgstr "Vietnamese"
+
+msgid "Walon"
+msgstr "Walloon"
+
+msgid "isiXhosa"
+msgstr "Xhosa"
+
+msgid "简体中文"
+msgstr "Simplified Chinese"
+
+msgid "繁體中文 (台灣)"
+msgstr "Traditional Chinese"
+
+msgid "isiZulu"
+msgstr "Zulu"
+
+
+# keymap menu
+
+msgid "Arabic"
+msgstr ""
+
+msgid "Belgian"
+msgstr ""
+
+msgid "Canadian (Multilingual)"
+msgstr ""
+
+msgid "Croatian"
+msgstr ""
+
+msgid "Czech"
+msgstr ""
+
+msgid "Czech (qwerty)"
+msgstr ""
+
+msgid "Danish"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "Dvorak"
+msgstr ""
+
+msgid "English (UK)"
+msgstr ""
+
+msgid "English (US)"
+msgstr ""
+
+msgid "Estonian"
+msgstr ""
+
+msgid "Finnish"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "French (Canada)"
+msgstr ""
+
+msgid "French (Switzerland)"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "German (Switzerland)"
+msgstr ""
+
+msgid "Greek"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Khmer"
+msgstr ""
+
+msgid "Korean"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Norwegian"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Serbian"
+msgstr ""
+
+msgid "Slovak"
+msgstr ""
+
+msgid "Slovak (qwerty)"
+msgstr ""
+
+msgid "Slovene"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Spanish (Latin America)"
+msgstr ""
+
+msgid "Swedish"
+msgstr ""
+
+msgid "Tajik"
+msgstr ""
+
+msgid "Turkish"
+msgstr ""
+
+msgid "Ukrainian"
+msgstr ""
+
+
+# video menu
+
+msgid "Text Mode"
+msgstr ""
+
+msgid "VESA"
+msgstr ""
+
+msgid "800 x 600"
+msgstr "800 times 600"
+
+msgid "1024 x 768"
+msgstr "1024 times 768"
+
+msgid "1280 x 1024"
+msgstr "1280 times 1024"
+
+msgid "1400 x 1050"
+msgstr "1400 times 1050"
+
+msgid "1600 x 1200"
+msgstr "1600 times 1200"
+
+
+# source menu
+
+msgid "CD-ROM"
+msgstr ""
+
+msgid "DVD"
+msgstr ""
+
+msgid "Hard Disk"
+msgstr ""
+
+msgid "SLP"
+msgstr ""
+
+msgid "FTP"
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
+msgid "NFS"
+msgstr ""
+
+msgid "SMB / CIFS"
+msgstr ""
+
+msgid "Network Config"
+msgstr ""
+
+msgid "HTTP Proxy"
+msgstr ""
+
+
+# kernel menu
+
+msgid "Default"
+msgstr ""
+
+msgid "Safe Settings"
+msgstr ""
+
+msgid "No ACPI"
+msgstr ""
+
+msgid "No Local APIC"
+msgstr ""
+
+
+# driver menu
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+
+# arch menu
+
+msgid "x86"
+msgstr ""
+
+msgid "x86-64"
+msgstr ""
+
+
+# install sources
+
+msgid "FTP Installation"
+msgstr ""
+
+msgid "NFS Installation"
+msgstr ""
+
+msgid "HTTP Installation"
+msgstr ""
+
+msgid "SMB (Windows Share) Installation"
+msgstr ""
+
+msgid "Hard Disk Installation"
+msgstr ""
+
+msgid "Server\n"
+msgstr ""
+
+msgid "Directory\n"
+msgstr ""
+
+msgid "User (Anonymous Login If Empty)\n"
+msgstr ""
+
+msgid "User (Uses \"guest\" If Empty)\n"
+msgstr ""
+
+msgid "Password\n"
+msgstr ""
+
+msgid "Domain\n"
+msgstr ""
+
+msgid "Share\n"
+msgstr ""
+
+msgid "Disk Device (Scans All Disks If Empty)\n"
+msgstr ""
+
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
+msgstr ""
+
+msgid "Driver Update"
+msgstr ""
+
+msgid "Download Driver Update"
+msgstr ""
+
+msgid "Enter Driver Update URL\n"
+msgstr ""
+
+msgid "Exiting..."
+msgstr ""
+
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+
+msgid "Power Off"
+msgstr ""
+
+msgid "Halt the system now?"
+msgstr ""
+
+
+# proxy settings
+
+msgid "Server\n"
+msgstr ""
+
+msgid "Port\n"
+msgstr ""
+
+msgid "User\n"
+msgstr ""
+
+msgid "Password\n"
+msgstr ""
+
+
+# network config
+
+msgid "No Network"
+msgstr ""
+
+msgid "DHCP"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+
+# manual net config
+
+msgid "Manual Network Config"
+msgstr ""
+
+msgid "Host IP\n"
+msgstr ""
+
+msgid "Netmask\n(or use '/N' notation with Host IP)\n"
+msgstr "Netmask"
+
+msgid "Gateway\n"
+msgstr ""
+
+msgid "Nameservers (separated by ',')\n"
+msgstr "Nameservers"
+
+msgid "Domain Name\n"
+msgstr ""
+
+
+
+# ascii
+
+msgid " "
+msgstr "space"
+
+msgid "!"
+msgstr ""
+
+msgid "\""
+msgstr ""
+
+msgid "#"
+msgstr ""
+
+msgid "$"
+msgstr ""
+
+msgid "%"
+msgstr ""
+
+msgid "&"
+msgstr ""
+
+msgid "'"
+msgstr ""
+
+msgid "("
+msgstr ""
+
+msgid ")"
+msgstr ""
+
+msgid "*"
+msgstr ""
+
+msgid "+"
+msgstr ""
+
+msgid ","
+msgstr ""
+
+msgid "-"
+msgstr ""
+
+msgid "."
+msgstr ""
+
+msgid "/"
+msgstr ""
+
+msgid "0"
+msgstr ""
+
+msgid "1"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "4"
+msgstr ""
+
+msgid "5"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "7"
+msgstr ""
+
+msgid "8"
+msgstr ""
+
+msgid "9"
+msgstr ""
+
+msgid ":"
+msgstr ""
+
+msgid ";"
+msgstr ""
+
+msgid "<"
+msgstr ""
+
+msgid "="
+msgstr ""
+
+msgid ">"
+msgstr ""
+
+msgid "?"
+msgstr ""
+
+msgid "@"
+msgstr ""
+
+msgid "["
+msgstr ""
+
+msgid "\\"
+msgstr ""
+
+msgid "]"
+msgstr ""
+
+msgid "^"
+msgstr ""
+
+msgid "_"
+msgstr ""
+
+msgid "`"
+msgstr ""
+
+msgid "a"
+msgstr ""
+
+msgid "b"
+msgstr ""
+
+msgid "c"
+msgstr ""
+
+msgid "d"
+msgstr ""
+
+msgid "e"
+msgstr ""
+
+msgid "f"
+msgstr ""
+
+msgid "g"
+msgstr ""
+
+msgid "h"
+msgstr ""
+
+msgid "i"
+msgstr ""
+
+msgid "j"
+msgstr ""
+
+msgid "k"
+msgstr ""
+
+msgid "l"
+msgstr ""
+
+msgid "m"
+msgstr ""
+
+msgid "n"
+msgstr ""
+
+msgid "o"
+msgstr ""
+
+msgid "p"
+msgstr ""
+
+msgid "q"
+msgstr ""
+
+msgid "r"
+msgstr ""
+
+msgid "s"
+msgstr ""
+
+msgid "t"
+msgstr ""
+
+msgid "u"
+msgstr ""
+
+msgid "v"
+msgstr ""
+
+msgid "w"
+msgstr ""
+
+msgid "x"
+msgstr ""
+
+msgid "y"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "{"
+msgstr ""
+
+msgid "|"
+msgstr ""
+
+msgid "}"
+msgstr ""
+
+msgid "~"
+msgstr ""
+

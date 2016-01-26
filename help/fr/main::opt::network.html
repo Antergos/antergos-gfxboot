@@ -1,0 +1,13 @@
+<a name="o_hostip"/>
+<a name="o_netmask"/>
+<a name="o_gateway"/>
+
+<h3>
+<a name="network">Options du programme d'installation : options réseau</a>
+</h3>
+
+<p>Il est possible de configurer l'interface réseau dès maintenant. Le matériel sera détecté ultérieurement par YaST2. L'ensemble minimum d'options pour configurer votre carte réseau comprend l'adresse IP et le masque réseau de l'hôte. Par exemple : <ul><li>hostip=192.168.0.10 netmask=255.255.255.0</li></ul></p>
+
+<p>ou dans un format plus court : <ul><li>hostip=192.168.0.10/24</li></ul></p>
+
+<p>Si vous spécifiez une <a href="#o_install">network-based install</a> et si vous ne définissez pas ces deux options, le programme d'installation essaie de configurer l'interface réseau avec <em>dhcp</em>. Si vous avez besoin d'une passerelle par défaut, spécifiez-le avec l'option <em>gateway</em>. Par exemple : <ul><li>gateway=192.168.0.8</li></ul></p>

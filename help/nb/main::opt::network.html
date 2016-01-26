@@ -1,0 +1,13 @@
+<a name="o_hostip"/>
+<a name="o_netmask"/>
+<a name="o_gateway"/>
+
+<h3>
+<a name="network">Installasjonsvalg: nettverksvalg</a>
+</h3>
+
+<p>Du kan sette opp nettverksgrensesnittet allerede nå. Maskinvaren vil ble registrert senere av YaST2. Du må minst angi IP-adressen og nettverksmasken for å konfigurere et nettverkskort. For eksempel:<ul><li>hostip=192.168.0.10 netmask=255.255.255.0</li></ul></p>
+
+<p>eller i et kortere format: <ul><li>hostip=192.168.0.10/24</li></ul></p>
+
+<p>Hvis du spesifiserte en <a href="#o_install">nettverksbasert installasjon</a> uten å definere disse to valgene, vil installasjonsprogrammet forsøke å konfigurere nettverksgrensesnittet med <em>dhcp</em>. Hvis du trenger en standard systemport, angir du dette med valget <em>systemport</em>. For eksempel: <ul><li>gateway=192.168.0.8</li></ul></p>

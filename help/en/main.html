@@ -14,24 +14,21 @@ system. The main functions in this menu are:
 </p>
 
 <p>
-<a href="#start">Start Live System</a>: Select this option 
-to start using the @@@product@@@ Live Media.
-</p>
-
-<p>
-<a href="#harddisk">Boot from Hard Disk</a>: This selection does not
-affect the installed system. It only starts a previously installed
+<a href="#harddisk">Boot from Hard Disk</a>: This selection will not do
+anything to the system. It only starts a previously installed
 operating system.
 </p>
 
 <p>
-<a href="#hdt">Hardware Detection Tool</a>: This selection will launch
-a tool for checking your hardware. This tool does not affect
-or determine the hardware used for installing <em>@@@product@@@</em>. 
+<a href="#linux">Installation</a>: 
+This installation mode works on most machines. If you experience a
+system freeze during boot or problems with detection of your hardware
+components, such as disk controllers or network cards, try one of the
+following installation options.
 </p>
 
 <p>
-<a href="#noacpi">ACPI Disabled</a>: Many of the
+<a href="#noacpi">Installation -- ACPI Disabled</a>: Many of the
 currently-sold computers have incomplete or faulty ACPI
 implementations. This selection disables ACPI support in the
 kernel, but still enables many performance features, like DMA for IDE
@@ -39,12 +36,30 @@ hard disks.
 </p>
 
 <p>
-<a href="#nolapic">Local APIC Disabled</a>:
+<a href="#nolapic">Installation -- Local APIC Disabled</a>:
 If the normal installation fails, this might be due to the
 system hardware not supporting local APIC.
 If this seems to be the case, use this option to
 install without local APIC support.
 </p>
+
+<p>
+<a href="#failsafe">Installation -- Safe Settings</a>: If you were not
+successful with <em>Installation</em>, this selection might
+solve the issue.
+</p>
+
+<p>
+<a href="#rescue">Rescue System</a>: This boot image starts a small
+Linux system in RAM. This is useful if the system does not start properly.
+After booting this system, log in as root.
+</p>
+
+<p>
+<a href="#firmware">Firmware Test</a>: Runs a BIOS test tool that validates
+ACPI and other parts of your BIOS.
+</p>
+
 <p>
 <a href="#memtest">Memory Test</a>: Memory testing is useful for more than
 checking installation of new memory modules. It is a stress test
@@ -75,4 +90,14 @@ used by the boot loader.
 different screen resolutions while installing. If you encounter
 problems with the graphical installation, the <em>text mode</em> may
 be a work-around for you.
+</p>
+
+<p>
+<a href="#install_src">@@@fkey_inst@@@ Installation Source</a>: Choose the
+installation source.
+</p>
+
+<p>
+<a href="#driverupdate">@@@fkey_dud@@@ Driver Update</a>: For very new machines, a
+driver update may be needed to install the system.
 </p>

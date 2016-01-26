@@ -1,0 +1,13 @@
+<a name="o_hostip"/>
+<a name="o_netmask"/>
+<a name="o_gateway"/>
+
+<h3>
+<a name="network">安裝程式選項：網路選項</a>
+</h3>
+
+<p>現在可以設定網路介面。YaST2 稍後將會偵測硬體。設定網路卡的最小選項集為主機 IP 和網路遮罩。例如：<ul><li>hostip=192.168.0.10 netmask=255.255.255.0</li></ul></p>
+
+<p>或以較短形式：<ul><li>hostip=192.168.0.10/24</li></ul></p>
+
+<p>若指定了 <a href="#o_install">網路式安裝</a> 而不指定這兩個選項，安裝程式將嘗試使用 <em>dhcp</em> 設定網路介面。如果需要預設閘道，請以選項 <em>閘道</em> 指定該項。例如：<ul><li>gateway=192.168.0.8</li></ul></p>

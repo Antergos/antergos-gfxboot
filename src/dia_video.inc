@@ -121,8 +121,8 @@
 
   % build list of video modes
   /video.modes.list [
-    [ -1 0 "textmode=1" /txt_text_mode 0 0 ]	        % special: text mode
-    [ -2 0 "nomodeset"  /txt_no_kms 1 0 ]	        % special: no KMS (width = 1 to make it sort)
+    [ -1 0 "textmode=1" /txt_text_mode     0 0 ]	% special: text mode
+    [ -2 0 "nomodeset"  /txt_video_no_kms  1 0 ]	% special: no KMS (width = 1 to make it sort)
     [ -3 0 ""           /txt_kernel_default 2 0 ]	% special: no video options (width = 2 to make it sort)
 
     % first, try 16 bit
@@ -137,8 +137,8 @@
             over 0xbfff and 6 2 roll
             0x4000 and			% fb support
             exch vm_color_bits eq and	% color bits
-            over 600 ge and		% height >= 600
-            2 index 800 ge and		% width >= 800
+            over 576 ge and		% height >= 576
+            2 index 1024 ge and		% width >= 1024
           { 1 "" "" 5 -2 roll ] } { pop pop pop pop } ifelse
         } ifelse
       } for
@@ -274,6 +274,9 @@
 
   } forall
   pop
+
+  % FIXME: force 'default' entry
+  xmenu .xm_current 2 put
 
   pop pop
 } def

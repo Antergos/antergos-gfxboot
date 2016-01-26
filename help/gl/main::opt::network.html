@@ -1,0 +1,13 @@
+<a name="o_hostip"/>
+<a name="o_netmask"/>
+<a name="o_gateway"/>
+
+<h3>
+<a name="network">Opcións do Instalador: Opcións de Rede</a>
+</h3>
+
+<p>É posible configurar a interface de rede agora. YaST ha detectar o hardware máis adiante. O conxunto mínimo de opcións para configurar a tarxeta de rede consiste nunha IP de máquina e unha máscara de rede. Por exemplo: <ul><li>hostip=192.168.0.10 netmask=255.255.255.0</li></ul></p>
+
+<p>en máis curto: <ul><li>hostip=192.168.0.10/24</li></ul></p>
+
+<p>Se especificou <a href="#o_install">instalación por rede</a> e non especificou ámbalas dúas opcións, o instalador intenta configurar a interface de rede con <em>dhcp</em>. Se precisa unha pasarela predeterminada, especifique isto coa opción <em>gateway</em>. Por exemplo: <ul><li>gateway=192.168.0.8</li></ul></p>

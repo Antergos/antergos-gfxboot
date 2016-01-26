@@ -1,0 +1,35 @@
+<h3>
+<a name="main">Hjælp til bootloader</a>
+</h3>
+
+<p>Velkommen til <em>@@@product@@@</em></p>
+
+<p>Brug denne menu til at vælge den ønskede funktion. Hvis du har problemer med at navigere i dette hjælpesystem så tryk <em>@@@fkey_help@@@</em> for at få <a href="#help">beskrivelse</a> om hjælpesystemet. De væsentligste funktioner i denne menu er:</p>
+
+<p><a href="#harddisk">Boot fra harddisk</a>: Dette udvalg vil ikke ændre noget på systemet. Det starter bare det allerede installerede operativsystem.</p>
+
+<p><a href="#linux">Installation</a>: Denne installationstilstand virker på de fleste maskiner. Hvis du oplever at systemet fryser ved boot, eller problemer med genkendelsen af din hardwarekomponenter, f.eks. harddisk-controllere eller netværkskort, kan du prøve en af følgende installationsmuligheder.</p>
+
+<p><a href="#noacpi">Installation -- ACPI deaktiveret</a>: Mange af de computere der sælges for tiden, har ufuldstændige eller fejlbehæftede implementationer af ACPI. Dette valg deaktiverer ACPI-understøttelse i kernen, men mange ydelsesfunktioner såsom DMA for IDE-harddiske forbliver aktiverede.</p>
+
+<p><a href="#nolapic">Installation -- Lokal APIC deaktiveret</a>: Hvis den normale installation fejler, kan det skyldes at hardwaren ikke understøtter lokal APIC. Hvis dette lader til at være tilfældet, så anvend denne valgmulighed for at installere uden understøttelse for lokal APIC.</p>
+
+<p><a href="#failsafe">Installation -- fejlsikret tilstand</a>: Hvis du ikke havde held med <em>Installation</em>, kan det være at dette valg vil løse problemet.</p>
+
+<p><a href="#rescue">Redningssystem</a>: Denne bootimagefil starter et lille Linuxsystem i RAM. Dette er nyttigt, hvis systemet ikke vil starte korrekt op. Når dette system er startet op, skal du logge ind som brugeren root.</p>
+
+<p><a href="#firmware">Firmware-test</a>: Kører et BIOS-testværktøj, som validerer ACPI og andre dele af din BIOS.</p>
+
+<p><a href="#memtest">Hukommelsestest</a>: Test af hukommelsen er nyttig til mere end blot at tjekke installationen af nye hukommelsesmoduler. Det stresstester også en stor del af din computer og kan indikere hardwareproblemer.</p>
+
+<p><a href="#opt">Boot-valgmuligheder</a>: Bootparametrene kan ændre dit systems opførsel fuldstændigt. De er indstillinger til kernen.</p>
+
+<p><a href="#help">@@@fkey_help@@@ Help</a>: Hjælpen tilpasser sig konteksten. Du vil se forskellige ting, alt efter hvad det aktive element på skærmen er. Der er også en beskrivelse af dette hjælpesystem tilgængelig.</p>
+
+<p><a href="#keytable">@@@fkey_lang@@@</a>: Vælg det sprog og tastaturlayout der skal bruges at bootloaderen.</p>
+
+<p><a href="#videomode">@@@fkey_video@@@ Video Mode</a>: Her kan du vælge imellem forskellige skærmopløsninger, der kan bruges under installationen. Hvis du løber ind i problemer med den grafiske installation, kan <em>teksttilstand</em> være en måde at komme videre på.</p>
+
+<p><a href="#install_src">@@@fkey_inst@@@ Softwarekilde</a>: Vælg softwarekilden.</p>
+
+<p><a href="#driverupdate">@@@fkey_dud@@@ Driveropdatering</a>: Hvis systemet er virkelig nyt, kan det være nødvendigt med en driveropdatering for at kunne installere systemet.</p>

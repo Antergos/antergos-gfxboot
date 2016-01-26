@@ -74,7 +74,7 @@
 %
 % Check if there are boot directories for 32 & 64bit.
 %
-% Assumes 32bit to be in *i686* and 64bit in *x86_64*.
+% Assumes 32bit to be in *i386* and 64bit in *x86_64*.
 %
 % ( ) ==> ( )
 %
@@ -82,13 +82,13 @@
   getcwd dup .undef ne {
     /64bit.tmp 256 string def
 
-    dup "i686" strstr 0 ne over "x86_64" strstr 0 ne or {
-      dup "i686" strstr {
+    dup "i386" strstr 0 ne over "x86_64" strstr 0 ne or {
+      dup "i386" strstr {
         /32bit_boot_dir exch def
-        /64bit_boot_dir 32bit_boot_dir "i686" "x86_64" strreplace
+        /64bit_boot_dir 32bit_boot_dir "i386" "x86_64" strreplace
       } {
         /64bit_boot_dir exch def
-        /32bit_boot_dir 64bit_boot_dir "x86_64" "i686" strreplace
+        /32bit_boot_dir 64bit_boot_dir "x86_64" "i386" strreplace
       } ifelse
 
       dup "%s/isolinux.cfg" 64bit.tmp sprintf
@@ -159,6 +159,24 @@
     500 20 moveto dup print "  " print
   } if
 
+  ptheme {
+    % reverse direction
+    /p.xmas.dx p.xmas.dx neg def
+
+    key keyF9 eq
+    key keyF7 eq or {
+      % call super penguin
+      p.call.super
+    } {
+      key keyF1 ge
+      key keyF10 le and {
+        % read something
+        /p.read.timer rand 0x31 and neg -30 add def
+      } if
+    } ifelse
+
+  } if
+
   % some special keys
   debug.input
 
@@ -169,6 +187,30 @@
 
   window.action actExit eq {
     /window.action actNothing def
+
+    % select link to submenu we just left
+    submenu.leave dup {
+      submenu.build
+      % kill trailing space
+      dup dup length 1 sub 0 max 0 put
+      menu.args length {
+        0 1 menu.args length 1 sub {
+          menu.args over get
+          2 index eq
+          {
+            /menu.entry exch def
+          } {
+            pop
+          } ifelse
+        } for
+      } if
+      pop
+
+      main.recalc
+      true main.redraw
+
+      "" -1 0 return
+    } if
     "" -1 1 return
   } if
 
@@ -211,6 +253,21 @@
       } if
     } if
 
+    % activate submenu
+    menu.args menu.entry get submenu.tag strstr 1 eq {
+      menu.args menu.entry get submenu.enter
+      submenu.build
+      menu.args length {
+        /menu.entry 0 def
+        main.recalc
+        true main.redraw
+      } {
+        submenu.leave submenu.build
+      } ifelse
+
+      "" -1 0 return
+    } if
+
     % some tricks to make it possible to review the complete command line
     debug 3 ge xxx.cmdline .undef eq and {
       /window.action actNothing def
@@ -246,18 +303,28 @@
       } {
         boot.ed.list buildcmdline
       } ifelse
-      2 return
+      submenu.menuidx 2 return
     } ifelse
   } if
 
   window.action actRedraw eq {
     /window.action actNothing def
-    main.redraw
+    false main.redraw
   } if
 
   window.action actRedrawPanel eq {
     /window.action actNothing def
     panel.show
+  } if
+
+  window.action actInstallOK eq {
+    /window.action actNothing def
+    install.ok
+  } if
+
+  window.action actInstallCancel eq {
+    /window.action actNothing def
+    install.cancel
   } if
 
   "" -1 0
@@ -357,6 +424,12 @@
     } { pop } ifelse
   } if
 
+  xmenu.otheropts {
+    otheropts.options xmenu.otheropts .xm_current get get dup "" ne {
+      "%s " bc.cmd dup length add sprintf
+    } { pop } ifelse
+  } if
+
   /cmdline.hidden over dup length .inp_hidden ge { .inp_hidden get } { pop .undef } ifelse def
 
   cmdline.hidden {
@@ -401,26 +474,74 @@
 
   config.addopt.lang {
     config.lang {
-      config.lang "lang=%s " bc.cmd dup length add sprintf
+      config.lang.changed {
+        config.lang "lang=%s " bc.cmd dup length add sprintf
+      } if
     } if
   } if
 
   config.addopt.keytable {
     config.keymap.id {
-      config.keymap.id "keytable=%s " bc.cmd dup length add sprintf
+      config.lang getkeymapfromlocale config.keymap.id ne {
+        config.keymap.id "keytable=%s " bc.cmd dup length add sprintf
+      } if
     } if
   } if
-  
-  config.addopt.layout {
-    config.layout {
-      config.layout "layout=%s " bc.cmd dup length add sprintf
-    } if
+
+  xmenu.dud {
+    xmenu.dud .xm_current get .dud_url eq {
+      input.edit.dud_url 0 get dup "" ne {
+        "dud=%s " bc.cmd dup length add sprintf
+      } { pop } ifelse
+    } {
+      xmenu.dud .xm_current get .dud_file eq {
+        input.edit.dud_file 0 get dup "" ne {
+          "driverupdate=%s " bc.cmd dup length add sprintf
+        } { pop } ifelse
+      } {
+        dud.options xmenu.dud .xm_current get get dup "" ne {
+          "%s " bc.cmd dup length add sprintf
+        } { pop } ifelse
+      } ifelse
+    } ifelse
   } if
-  
+
   xmenu.profile {
     profile.options xmenu.profile .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf
     } { pop } ifelse
+  } if
+
+  xmenu.install {
+    config.noinstallopt menu.texts menu.entry get iselement not {
+      install.option "" ne {
+        install.option "%s " bc.cmd dup length add sprintf
+      } if
+      proxy.option "" ne {
+        proxy.option "%s " bc.cmd dup length add sprintf
+      } if
+    } if
+  } if
+
+  xmenu.net {
+    xmenu.install {
+      net.config_type .undef ne {
+        net.config_type .net_static eq {
+          input.net.static 0 get dup "" ne {
+            "hostip=\"%s\" " bc.cmd dup length add sprintf
+          } { pop } ifelse
+          input.net.static 1 get dup "" ne {
+            "gateway=\"%s\" " bc.cmd dup length add sprintf
+          } { pop } ifelse
+          input.net.static 2 get dup "" ne {
+            "nameserver=\"%s\" " bc.cmd dup length add sprintf
+          } { pop } ifelse
+          input.net.static 3 get dup "" ne {
+            "domain=\"%s\" " bc.cmd dup length add sprintf
+          } { pop } ifelse
+        } if
+      } if
+    } if
   } if
 
   % add user-supplied options
@@ -605,13 +726,21 @@
     } if
   } if
 
+  /orig.menu.texts menu.texts def
+  /orig.menu.args menu.args def
+
+  submenu.build
+
   window.main
   dup window.init
       window.show
 
   config.beep { 3000 50000 beep } if
-  
-  % lang.displayed not { panel.lang } if
+
+  config.talk {
+    load_talk_dialog
+    menu.texts menu.idx get menuitemmap speak
+  } if
 
   syslinux {
     32+64bit_source not {
@@ -697,7 +826,7 @@
 
   syslinux info.type 6 eq and {
     dup .title "Driver Update" put
-    /info.msg "Put the Antergos media back into the drive." def
+    /info.msg "Put the openSUSE CD-ROM back into the drive." def
   } if
 
   dup .text info.msg put
@@ -947,6 +1076,8 @@
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % ( text ) == > ( new_text )
 /menuitemmap {
+  submenu.skip_prefix
+
   translate
   config._2space {
     /mmm.tmp xfree
@@ -960,15 +1091,17 @@
   dup "memtest" eq over "memtest86" eq or { pop txt_memtest return } if
   dup "firmware" eq { pop txt_firmware return } if
   mode.install {
-    dup "start"          eq { pop txt_start          return } if
-    dup "nonfree"        eq { pop txt_nonfree        return } if
-    dup "hdt"            eq { pop txt_hdt            return } if
-    dup "linux"          eq { pop txt_install        return } if
-    dup "harddisk"       eq { pop txt_boot_harddisk  return } if
+    dup "linux"      eq { pop txt_install        return } if
+    dup "upgrade"    eq { pop txt_upgrade        return } if
+    dup "repair"     eq { pop txt_repain_system  return } if
+    dup "rescue"     eq { pop txt_rescue         return } if
+    dup "harddisk"   eq { pop txt_boot_harddisk  return } if
+    dup "mediachk"   eq { pop txt_mediacheck     return } if
+    dup "mediacheck" eq { pop txt_mediacheck     return } if
   } {
-    dup "failsafe"       eq { pop txt_safe_linux     return } if
-    dup "linux"          eq { pop "Linux"            return } if
-    dup "windows"        eq { pop "Windows"          return } if
+    dup "failsafe"   eq { pop txt_safe_linux     return } if
+    dup "linux"      eq { pop "Linux"            return } if
+    dup "windows"    eq { pop "Windows"          return } if
   } ifelse
   % still no luck... - try to translate
   _
@@ -1079,6 +1212,8 @@
 /init {
   0 0 moveto currentpoint clip.size image
 
+  ptheme { ptheme.init } if
+
   % set default language
   "lang" findfile dup {
     /tmp over length 1 add 2 max string def
@@ -1088,7 +1223,6 @@
       1 add
     } forall
     tmp dup setlang pop getkeymapfromlocale setkeymap
-    % /lang.displayed true def
   } {
     pop
     "en_US" dup setlang pop getkeymapfromlocale setkeymap
@@ -1100,11 +1234,9 @@
 
   font.large setfont
 
-  /config.layout config.lang getlayoutfromlocale def
-  
   /menu.text.xofs      10 def
   /menu.text.yofs       2 def
-  /menu.item.height    fontheight dup 2 div add def
+  /menu.item.height    fontheight dup ptheme { 3 } { 2 } ifelse div add def
   /menu.bar.height     fontheight menu.text.yofs dup add add def
 
   font.normal setfont
@@ -1134,6 +1266,34 @@
     currentpoint 0 0 moveto
     64 string biosmem "mem = %u  " 2 index sprintf dup show free
     moveto setcolor
+  } if
+
+  dup keyF8 eq syslinux and {
+    kroete.file .undef eq { /kroete.file "kroete.dat" findfile def } if
+    kroete.file kroete.dir idle
+    /kroete.dir kroete.dir 1 xor def
+  } if
+
+  dup keyF9 eq syslinux and {
+    /v_impaired inc
+
+    v_impaired 1 eq config.talk not and {
+      /config.talk true def
+      load_talk_dialog
+      menu.texts menu.idx get menuitemmap speak
+    } {
+      sound.getsamplerate { sound.getsamplerate sound.setsamplerate } if
+    } ifelse
+
+    xmenu.video .xm_current config.livecd { 1 } { 0 } ifelse put	% 0 = text mode, 1 = VESA
+    % redraw unless another menu is still open
+    window.current {
+      window.current .xmenu get .undef eq { video.update } if
+    } if
+
+    .undef 0 idle
+    kroete.file free /kroete.file .undef def
+    pop 0
   } if
 
   dup keyShiftF3 eq syslinux and debug 3 ge and {
@@ -1182,6 +1342,39 @@
 
   dup keyShiftF10 eq {
     /debug debug 1 add def
+  } if
+
+  dup keyShiftF11 eq {
+    400 0 moveto "ani_%04d.jpg" play_movie
+  } if
+
+  dup keyShiftF1 eq {
+    /transp transp 0x10 sub 0 max def
+
+    /player 0 def
+    player "hapysuse.mod" findfile dup
+    {
+      mod.load
+      config.volume sound.setvolume
+      player 0 mod.play
+      /player player 1 add 3 and def
+    } {
+      pop
+    } ifelse
+
+    pop 0
+  } if
+
+  dup keyShiftF3 eq {
+    "fsfsong.wav" findfile dup
+    {
+      config.volume sound.setvolume
+      wav.play
+    } {
+      pop
+    } ifelse
+
+    pop 0
   } if
 
   dup keyShiftF4 eq {
@@ -1416,6 +1609,39 @@ screen.fallback {
   /gfxconfig.layout [ "640x480" gfxconfig.layout { } forall ] gfxconfig.layout free def
 } if
 
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Figure out whether to use penguin theme.
+%
+
+/config.penguin       "penguin"               0 gfxconfig.set.int
+
+% more likely during winter...
+config.penguin -1 eq {
+  date
+  0
+
+  over month 12 eq { 5 add } if
+  over month 1 le { 5 add } if
+  over weekday 5 eq { 2 mul } if
+  over weekday 6 eq { 4 mul } if
+  over dup month 12 eq exch day dup 24 ge exch 6 eq or and { pop 100 } if
+  over dup month 1 eq exch day 1 eq and { pop 100 } if
+
+  /config.penguin exch def
+  pop
+} if
+
+/ptheme rand pop rand 100 mod config.penguin lt def
+
+0x417 cvp getbyte 0x40 and 0 ne { /ptheme  true def } if
+0x417 cvp getbyte 0x10 and 0 ne { /ptheme false def } if
+
+% prepend penguin section to layout section list
+ptheme {
+  /gfxconfig.layout [ "penguin" gfxconfig.layout { } forall ] gfxconfig.layout free def
+} if
+
 % for compatibility: prepend live section to layout section list if 'livecd' is set
 /config.livecd         "livecd"                   false gfxconfig.set.bool
 config.livecd {
@@ -1474,10 +1700,35 @@ config.livecd {
 /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
 /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
 /keymap.default        "keymap"                      "" gfxconfig.set.str
-
 /config.addopt.lang    "addopt.lang"              false gfxconfig.set.bool
 /config.addopt.keytable "addopt.keytable"         false gfxconfig.set.bool
-/config.addopt.layout  "addopt.layout"            false gfxconfig.set.bool
+
+/install.install       "install"                     "" gfxconfig.set.str
+/install.http.server   "install.http.server"         "" gfxconfig.set.str
+/install.http.path     "install.http.path"           "" gfxconfig.set.str
+
+/install.nfs.server    "install.nfs.server"          "" gfxconfig.set.str
+/install.nfs.path      "install.nfs.path"            "" gfxconfig.set.str
+
+/install.ftp.server    "install.ftp.server"          "" gfxconfig.set.str
+/install.ftp.path      "install.ftp.path"            "" gfxconfig.set.str
+/install.ftp.user      "install.ftp.user"            "" gfxconfig.set.str
+/install.ftp.password  "install.ftp.password"        "" gfxconfig.set.str
+
+/install.smb.server    "install.smb.server"          "" gfxconfig.set.str
+/install.smb.share     "install.smb.share"           "" gfxconfig.set.str
+/install.smb.path      "install.smb.path"            "" gfxconfig.set.str
+/install.smb.domain    "install.smb.domain"          "" gfxconfig.set.str
+/install.smb.user      "install.smb.user"            "" gfxconfig.set.str
+/install.smb.password  "install.smb.password"        "" gfxconfig.set.str
+
+/install.hd.device     "install.hd.device"           "" gfxconfig.set.str
+/install.hd.path       "install.hd.path"             "" gfxconfig.set.str
+
+/dud.default           "dud"                         "" gfxconfig.set.str
+/dud.file              "dud.file"                    "" gfxconfig.set.str
+/dud.url               "dud.url"                     "" gfxconfig.set.str
+/dud.url.name          "dud.url.name"                "" gfxconfig.set.str
 
 /config.key.F2         "key.F2"                      "" gfxconfig.set.str
 /config.key.F3         "key.F3"                      "" gfxconfig.set.str
@@ -1491,7 +1742,7 @@ config.livecd {
 /config.key.F11        "key.F11"                     "" gfxconfig.set.str
 /config.key.F12        "key.F12"                     "" gfxconfig.set.str
 
-/config.product        "product"             "Antergos" gfxconfig.set.str
+/config.product        "product"             "openSUSE" gfxconfig.set.str
 
 /config.init           "init"                        "" gfxconfig.set.str
 
@@ -1542,6 +1793,9 @@ config.background findfile setimage
   } ifelse
 def
 
+% default kroet direction (idle task)
+/kroete.dir 0 def
+
 % default debug level
 /debug 0 def
 
@@ -1549,7 +1803,8 @@ def
 /v_impaired 0 def
 
 % show welcome animation?
-screen.fallback
+ptheme
+screen.fallback or
 CapsLock or
 config.welcome 0 eq or
 {
@@ -1560,3 +1815,4 @@ config.welcome 0 eq or
 
 % check for bi-arch config
 check_arch_boot_dir
+

@@ -1,0 +1,7 @@
+<h3>
+<a name="o_acpi">Opções do Kernel: acpi</a>
+</h3>
+
+<p>A ACPI (Advanced Configuration and Power Interface - Interface de Energia e Configuração Avançada) é um padrão que define as interfaces de gerenciamento de energia e configuração entre um sistema operacional e o BIOS. Por padrão, <em>ACPI</em> é ativado quando é detectado um BIOS posterior ao ano 2000. Há vários parâmetros normalmente usados para controlar o comportamento da ACPI: <ul><li><em>pci=noacpi</em> -- não usa ACPI para rotear interrupções de PCI</li><li><em>acpi=oldboot</em> -- apenas as partes da ACPI relevantes para inicialização permanecem ativadas</li><li><em>acpi=off</em> -- desliga a ACPI completamente</li><li><em>acpi=force</em> -- liga a ACPI mesmo se o BIOS tiver data anterior a 2000</li></ul></p>
+
+<p>Especialmente em computadores novos, substitui o sistema <a href="#o_apm">apm</a> antigo.</p>

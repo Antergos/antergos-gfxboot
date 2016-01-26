@@ -1,0 +1,13 @@
+<a name="o_hostip"/>
+<a name="o_netmask"/>
+<a name="o_gateway"/>
+
+<h3>
+<a name="network">安装程序选项：网络选项</a>
+</h3>
+
+<p>现在便可配置网络接口。稍后 YaST2 将检测到该硬件。配置网卡的最小选项组包括主机 IP 和网络掩码。例如：<ul><li>hostip=192.168.0.10 netmask=255.255.255.0</li></ul></p>
+
+<p>或以简短形式：<ul><li>hostip=192.168.0.10/24</li></ul></p>
+
+<p>如果您指定了 <a href="#o_install">基于网络的安装</a>，但未指定这两个选项，安装程序将尝试使用 <em>dhcp</em> 配置网络接口。如果您需要默认网关，请使用选项 <em>网关</em> 指定。例如：<ul><li>gateway=192.168.0.8</li></ul></p>

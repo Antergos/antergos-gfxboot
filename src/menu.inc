@@ -11,6 +11,8 @@
 /boot.splitchar 1 def
 /boot.splitstr 1 string dup 0 boot.splitchar put def
 
+/boot.update_options true def
+
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Create new main window.
 %
@@ -40,16 +42,19 @@
 % Redraw main window.
 % (E.g. after selecting a new language.)
 %
-% ( window ) ==> ( )
+% ( redraw_boot_options ) ==> ( )
+%
+% redraw_boot_options: true|false
+% redraw boot option line if true
 %
 /main.redraw {
 
   % boot.drawlabels
 
   main.drawmenu
-  /keepbootoptions 1 def
+  /boot.update_options exch def
   menu.entry true MenuSelect
-  /keepbootoptions .undef def
+  /boot.update_options true def
 
   panel.show
 } def
@@ -126,7 +131,10 @@
 
   free
 
-  config.nobootoptions menu.texts menu.entry get iselement {
+  config.nobootoptions menu.texts menu.entry get submenu.skip_prefix iselement
+  menu.args menu.entry get submenu.tag strstr 1 eq
+  or
+  {
     boot.ed.list 0 get .inp_show false put
   } if
 
@@ -223,14 +231,24 @@
   /y menu.start.y def
 
   0 1 menu.visible.entries 1 sub {
-   x y moveto currentpoint menu.bar.width.old menu.bar.height image
-   x config.rtl { menu.bar.width menu.text.xofs sub } { menu.text.xofs } ifelse add
-   y menu.text.yofs add moveto
-   menu.texts exch menu.shift add get menuitemmap
-   currentfont exch font.large setfont show.rtl setfont
-   /y y menu.item.height add def
+    /idx_tmp1 over def
+    x y moveto currentpoint menu.bar.width.old menu.bar.height image
+    x config.rtl { menu.bar.width menu.text.xofs sub } { menu.text.xofs } ifelse add
+    y menu.text.yofs add moveto
+    menu.texts exch menu.shift add get menuitemmap
+    currentfont exch font.large setfont show.rtl setfont
+
+    x y moveto idx_tmp1 menu.shift add show.submenu.tag
+
+    /y y menu.item.height add def
   } for
 
+  menu.visible.entries menu.max.entries lt {
+    menu.visible.entries 1 menu.max.entries 1 sub {
+     x y moveto currentpoint menu.bar.width.old menu.bar.height image
+     /y y menu.item.height add def
+    } for
+  } if
 } def
 
 
@@ -271,6 +289,7 @@
   } ifelse
   moveto
 
+  currentpoint
   config.rtl { menu.bar.width menu.text.xofs sub } { menu.text.xofs } ifelse
   menu.text.yofs rmoveto
   menu.status {
@@ -280,11 +299,15 @@
   } ifelse
   setcolor
   menu.texts menu.idx get menuitemmap
+  menu.status { config.talk { dup speak } if } if
   currentfont exch font.large setfont show.rtl setfont
+  moveto
+
+  menu.idx show.submenu.tag
 
   menu.status {
     % init boot options
-    keepbootoptions .undef eq {
+    boot.update_options {
 
       boot.input.preinit
 
@@ -316,6 +339,25 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Show little arrow symbol indicating a submenu entry.
+%
+% ( menu_idx ) ==> ( )
+/show.submenu.tag {
+  menu.args exch get submenu.tag strstr 1 eq {
+    config.rtl {
+      menu.text.xofs menu.text.yofs rmoveto
+      "\u25c0"
+    } {
+      menu.bar.width menu.text.xofs sub "\u25b6" strsize pop sub
+      menu.text.yofs rmoveto
+      "\u25b6"
+    } ifelse
+    show
+  } if
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Draw main window.
 %
 % ( window ) ==> ( )
@@ -323,8 +365,7 @@
 /main.show {
   window.push
 
-  /menu.shift 0 def
-  /menu.visible.entries menu.texts length menu.max.entries min def
+  main.recalc
 
   % get index of default entry
   /menu.entry 0 def
@@ -332,15 +373,11 @@
     dup menu.texts exch get menu.dentry eq { /menu.entry exch def exit } { pop } ifelse
   } for
 
-  menu.entry menu.visible.entries sub 0 ge {
-    /menu.shift menu.entry menu.texts length menu.visible.entries sub min def
-  } if
-
   boot.text.options setcolor
 
   window.current .font get setfont
 
-  /boot.ed.width screen.size pop boot.pos.x boot.pos.y pop sub 20 sub def
+  /boot.ed.width screen.size pop boot.pos.x boot.pos.y pop sub ptheme { 60 } { 20 } ifelse sub def
   /boot.ed.height fontheight 2 add def
 
   /boot.window window.current def
@@ -382,10 +419,25 @@
   % } for
 
   panel.init
+
   "main" help.setcontext
 
 } def
 
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Re-calculate basic menu layout data.
+%
+% ( ) ==> ( )
+/main.recalc {
+  /menu.shift 0 def
+
+  /menu.visible.entries menu.texts length menu.max.entries min def
+
+  menu.entry menu.visible.entries sub 0 ge {
+    /menu.shift menu.entry menu.texts length menu.visible.entries sub min def
+  } if
+} def
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Split command line into hidden and normal part.
@@ -426,7 +478,14 @@
     pop 0
   } if
 
-  dup keyEsc eq { exit_popup pop 0 } if
+  dup keyEsc eq {
+    submenu.current {
+      /window.action actExit def
+    } {
+      exit_popup
+    } ifelse
+    pop 0
+  } if
 
   dup keyEnter eq {
     /window.action actStart def
