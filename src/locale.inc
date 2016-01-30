@@ -31,6 +31,7 @@
     /locale.texts.en "en_US" "%s.tr" loadtexts def
   } if
 
+  /config.layout config.lang getlayoutfromlocale def
   /config.lang.changed true def
 
   true
@@ -95,6 +96,31 @@
   } if
 
   kbd.tmp.locale
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Look up layout in languale locale list.
+%
+% ( locale ) ==> ( layout )
+%
+% Returns .undef if locale was not found.
+%
+/getlayoutfromlocale {
+  /kbdl.tmp exch def
+  /kbdl.tmp.locale .undef def
+
+  lang.defaultnames {
+    dup .la.locale get kbdl.tmp eq { .la.layout get /kbdl.tmp.locale exch def exit } { pop } ifelse
+  } forall
+
+  kbdl.tmp.locale .undef eq {
+    lang.defaultnames {
+      dup .la.locale get kbdl.tmp locale.cmp { .la.layout get /kbdl.tmp.locale exch def exit } { pop } ifelse
+    } forall
+  } if
+
+  kbdl.tmp.locale
 } def
 
 

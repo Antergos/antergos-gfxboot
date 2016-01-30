@@ -241,12 +241,6 @@
 %
 /xmenu.show {
   window.push
-
-  config.talk {
-    xmenu .xm_title get dup .undef ne { exec speak } { pop } ifelse
-    xmenu .xm_list get xmenu .xm_current get get exec speak
-  } if
-
 } def
 
 
@@ -365,10 +359,6 @@
   xmenu .xm_current get over xmenu .xm_current rot put
   xmenu.viewentry
   xmenu.viewentry
-
-  config.talk {
-    xmenu .xm_list get xmenu .xm_current get get exec speak
-  } if
 } def
 
 

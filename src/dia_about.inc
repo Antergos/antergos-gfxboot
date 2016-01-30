@@ -66,7 +66,7 @@
 /about.msg {
 
   /about.msg
-    ptheme { "pabout.txt" } { "about.txt" } ifelse findfile dup .undef ne {
+    "about.txt" findfile dup .undef ne {
       dup length string dup cvp rot dup length memcpy
     } if
   def

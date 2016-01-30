@@ -318,8 +318,9 @@
 Edit boot options.
 
 - lang=<locale> selects the default language
-- install=<url> sets the install repository
-- dud=<url> adds a driverupdate (option can be given more than once)
+- keymap=<keymap> selects the default keymap
+- layout=<layout> selects the default keyboard layout
+- nonfree=yes/no switch between free and non-free drivers
 
 "
   serial.show

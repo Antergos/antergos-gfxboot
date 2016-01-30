@@ -17,8 +17,6 @@
      "" eq { pop } { help.setcontext } ifelse
    } if
    show_help
-
-   config.talk { txt_help speak } if
 } def
 
 

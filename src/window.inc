@@ -154,16 +154,6 @@
     dup t_xmenu eq { exch xmenu.input exch } if
     pop
 
-    % % maybe there is an editable input field
-    % dup 0 ne {
-    %   window.current .ed get .undef ne {
-    %     window.current .ed.font get setfont
-    %     window.current .color.fg get setcolor
-    %     window.current .ed get exch edit.input
-    %     0
-    %   } if
-    % } if
-
     % only top level window gets input
     pop 0
 
@@ -324,7 +314,6 @@
         window.current .ed.list get over get .inp_show aget false ne { } { pop 0 } ifelse
         window.current .ed.focus 2 index put
         window.current .ed.list get exch get edit.showcursor
-        dialog.say.label
         pop 0
       } if
 
@@ -339,15 +328,8 @@
         } loop
         window.current .ed.focus 2 index put
         window.current .ed.list get exch get edit.showcursor
-        dialog.say.label
         pop 0
       } if
-
-  %    dup keyTab eq {
-  %      window.findselected 1 add window.buttons length mod
-  %      window.selectbutton
-  %      pop 0
-  %    } if
 
     } if
 
@@ -397,7 +379,6 @@
         % only if real key
         24 shr 0xff and 0xff ne config.talk and currentfont is.pwmode not and {
           edit.getleft dup 'A' ge over 'Z' le and { 0x20 add } if
-          dialog.input.tmp1 0 rot put dialog.input.tmp1 speak
         } {
           pop
         } ifelse
@@ -411,11 +392,6 @@
 } def
 
 /dialog.input.tmp1 1 string def
-
-/dialog.say.label {
-  config.talk { window.current .ed.text.list get window.current .ed.focus get get speak } if
-} def
-
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Find selected button.
@@ -603,13 +579,11 @@
   dialog.tmp .x get dialog.tmp .y get moveto
   dialog.tmp .text.x get dialog.tmp .text.y get rmoveto
 
-  config.talk { dialog.tmp .title get speak } if
-
   /dialog.tmp.x currentpoint pop def
 
   config.rtl { dialog.tmp .text.x get -2 mul dialog.tmp .width get add 0 rmoveto } if
 
-  dialog.tmp .text get config.talk { dup speak } if show.rtl
+  dialog.tmp .text get show.rtl
 
   currentpoint exch pop dialog.tmp.x exch moveto
 
@@ -654,9 +628,7 @@
 
         dialog.tmp .ed.focus get dialog.tmp.idx ne {
           dialog.tmp.buf edit.hidecursor
-        } {
-          config.talk { dialog.tmp .ed.text.list get dialog.tmp.idx get speak } if
-        } ifelse
+        } if
 
       } { pop } ifelse
 
@@ -697,11 +669,6 @@
 
   dup actReboot eq {
     reboot
-  } if
-
-  dup actInstallOK eq {
-    install.ok
-    exch not exch
   } if
 
 %  dup actInstallCancel eq {

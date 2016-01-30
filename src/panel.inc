@@ -165,10 +165,7 @@
 
   dup "lang"       eq { pop [ /panel.lang /panel.lang.width /panel.lang.update /lang.init ] return } if
   dup "video"      eq { pop [ /panel.video /panel.video.width /panel.video.update /video.init ] return } if
-  dup "install"    eq { pop [ /panel.install /panel.install.width /panel.install.update /install.init ] return } if
   dup "kernelopts" eq { pop [ /panel.kernelopts /panel.kernelopts.width /panel.kernelopts.update /kernelopts.init ] return } if
-  dup "otheropts"  eq { pop [ /panel.otheropts /panel.otheropts.width /panel.otheropts.update /otheropts.init ] return } if
-  dup "dud"        eq { pop [ /panel.dud /panel.dud.width /panel.dud.update /dud.init ] return } if
   dup "keymap"     eq { pop [ /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] return } if
 
   dup "bits"       eq { pop
