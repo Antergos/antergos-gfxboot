@@ -961,7 +961,7 @@
   dup "firmware" eq { pop txt_firmware return } if
   mode.install {
     dup "start"          eq { pop txt_start          return } if
-    dup "nonfree"        eq { pop txt_nonfree        return } if
+    dup "multi"        eq { pop txt_multi        return } if
     dup "hdt"            eq { pop txt_hdt            return } if
     dup "linux"          eq { pop txt_install        return } if
     dup "harddisk"       eq { pop txt_boot_harddisk  return } if
