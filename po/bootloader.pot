@@ -429,6 +429,14 @@ msgstr ""
 msgid "Start Antergos Live"
 msgstr ""
 
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
 #. txt_nonfree
 msgid "Start (non-free drivers)"
 msgstr ""
