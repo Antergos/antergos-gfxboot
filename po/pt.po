@@ -477,3 +477,16 @@ msgstr ""
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr "Voltar ao menu principal"
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+

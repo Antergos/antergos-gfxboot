@@ -429,6 +429,10 @@ msgstr ""
 msgid "Start Antergos Live"
 msgstr ""
 
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
 #. txt_nvidia
 msgid "Start Antergos Live (nvidia)"
 msgstr ""
@@ -461,9 +465,9 @@ msgstr ""
 msgid "Intel Graphics (All)"
 msgstr ""
 
-#. txt_nvidia
-msgid "NVIDIA Graphics"
-msgstr ""
+##. txt_nvidia
+#msgid "NVIDIA Graphics"
+#msgstr ""
 
 #. txt_amd
 msgid "AMD Graphics"
@@ -476,3 +480,16 @@ msgstr ""
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr ""
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+

@@ -476,3 +476,16 @@ msgstr "Arrencada no gràfica"
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr "Torna al menú principal"
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+

@@ -476,3 +476,16 @@ msgstr "Spustenie bez grafického režimu"
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr "Návrat do hlavnej ponuky"
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+

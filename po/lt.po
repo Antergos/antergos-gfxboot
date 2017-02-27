@@ -474,3 +474,16 @@ msgstr "Negrafinis paleidimas"
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr "Grįžti į pagrindinį meniu"
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+

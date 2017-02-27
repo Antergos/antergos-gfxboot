@@ -478,3 +478,16 @@ msgstr "非图形化启动"
 #. txt_returntomain
 msgid "Return to main menu"
 msgstr "返回主菜单"
+
+#. txt_vesa
+msgid "Start Antergos Live (vesa)"
+msgstr ""
+
+#. txt_dummy
+msgid "Start Antergos Live (dummy)"
+msgstr ""
+
+#. txt_nvidia
+msgid "Start Antergos Live (nvidia)"
+msgstr ""
+
