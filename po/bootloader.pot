@@ -429,16 +429,12 @@ msgstr ""
 msgid "Start Antergos Live"
 msgstr ""
 
-#. txt_dummy
-msgid "Start Antergos Live (dummy)"
-msgstr ""
-
 #. txt_nvidia
-msgid "Start Antergos Live (nvidia)"
+msgid "Start Antergos Live (nvidia fallback)"
 msgstr ""
 
 #. txt_vesa
-msgid "Start Antergos Live (vesa)"
+msgid "Start Antergos Live (vesa fallback)"
 msgstr ""
 
 #. txt_nonfree

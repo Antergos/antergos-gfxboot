@@ -435,7 +435,8 @@ msgstr "Sistema viu (GNOME)"
 
 #. txt_start
 msgid "Start Antergos Live"
-msgstr "Inicia el sistema viu Antergos"
+msgstr "Inicia el sistema Antergos"
+
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
